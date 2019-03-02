@@ -19,7 +19,7 @@ import UserIcon from '@material-ui/icons/Group';
 const App = () => (
     <Admin dashboard={Dashboard} authProvider={AuthProvider} dataProvider={RestProvider}>
         <Resource name="manufacturers" options={{ label: 'Fabricants' }} list={ManufacturerList} edit={ManufacturerEdit} create={ManufacturerCreate} icon={ManufacturerIcon} />
-        <Resource name="manufacturersUsers" options={{ label: 'Utilisateurs' }} list={UserList} icon={UserIcon} />
+        <Resource name="manufacturers-users" options={{ label: 'Utilisateurs' }} list={UserList} icon={UserIcon} />
     </Admin>
 );
 

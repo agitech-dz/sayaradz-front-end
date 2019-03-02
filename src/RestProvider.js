@@ -11,7 +11,7 @@ import {
     GET_MANY_REFERENCE,
 } from 'react-admin';
 
-const apiUrl = 'http://localhost:3001/';
+const apiUrl = 'https://76b4524c.ngrok.io/api';
 
 /**
  * Maps react-admin queries to my REST API
@@ -25,7 +25,8 @@ export default (type, resource, params) => {
     let url = '';
     const options = {
         headers : new Headers({
-            Accept: 'application/json',
+            accept: 'application/json',
+            authorization: 'Token '+localStorage.getItem('token'),
         }),
     };
     switch (type) {
@@ -34,13 +35,18 @@ export default (type, resource, params) => {
             const { field, order } = params.sort;
             const query = {
                 sort: JSON.stringify([field, order]),
+                page: page,
+                page_size: perPage,
+                /*
                 range: JSON.stringify([
                     (page - 1) * perPage,
                     page * perPage - 1,
                 ]),
+                */
                 filter: JSON.stringify(params.filter),
             };
             url = `${apiUrl}/${resource}?${stringify(query)}`;
+            console.log(url);
             break;
         }
         case GET_ONE:
@@ -108,13 +114,12 @@ export default (type, resource, params) => {
     return fetch(url, options)
         .then(res => res.json())
         .then(json => {
-            console.log(type.toString());
             switch (type) {
                 case GET_LIST:
                 case GET_MANY_REFERENCE:
                     return {
-                        data: json.data,
-                        total: parseInt(json.total),
+                        data: json.results,
+                        total: parseInt(json.count),
                     };
                 case CREATE:
                     return { data: { ...params.data, id: json.data.id } };

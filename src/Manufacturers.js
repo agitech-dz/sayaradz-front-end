@@ -15,16 +15,16 @@ export const ManufacturerList = props => (
         <Responsive
             small={
                 <SimpleList
-                    primaryText={record => record.nom}
-                    secondaryText={record => `${record.nationalite}`}
+                    primaryText={record => record.name}
+                    secondaryText={record => `${record.nationality}`}
                     tertiaryText={record => `${record.id}`}
                 />
             }
             medium={
                 <Datagrid>
                     <TextField source="id"/>
-                    <TextField source="nom"/>
-                    <TextField source="nationalite"/>
+                    <TextField source="name"/>
+                    <TextField source="nationality"/>
                     <EditButton/>
                 </Datagrid>
             }
@@ -35,8 +35,8 @@ export const ManufacturerList = props => (
 export const ManufacturerEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            <TextInput source="nom" />
-            <TextInput source="nationalite" />
+            <TextInput source="name" />
+            <TextInput source="nationality" />
         </SimpleForm>
     </Edit>
 );
@@ -44,8 +44,8 @@ export const ManufacturerEdit = props => (
 export const ManufacturerCreate = props => (
     <Create {...props}>
         <SimpleForm>
-            <TextInput source="nom" />
-            <TextInput source="nationalite" />
+            <TextInput source="name" />
+            <TextInput source="nationality" />
         </SimpleForm>
     </Create>
 );
