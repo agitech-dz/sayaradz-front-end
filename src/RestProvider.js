@@ -36,6 +36,7 @@ export default (type, resource, params) => {
             authorization: 'Token '+localStorage.getItem('token'),
         }),
     };
+    console.log(params.filter.Search);
     switch (type) {
         case GET_LIST: {
             const { page, perPage } = params.pagination;
@@ -44,7 +45,7 @@ export default (type, resource, params) => {
                 sort: JSON.stringify([field, order]),
                 page: page,
                 page_size: perPage,
-                filter: JSON.stringify(params.filter),
+                search: JSON.stringify(params.filter.Search),
             };
             url = `${apiUrl}/${resource}?${stringify(query)}`;
             console.log(url);
