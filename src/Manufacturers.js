@@ -21,7 +21,6 @@ export const ManufacturerList = props => (
                 <SimpleList
                     primaryText={record => record.name}
                     secondaryText={record => `${record.nationality}`}
-                    tertiaryText={record => `${record.id}`}
                 />
             }
             medium={

@@ -36,16 +36,21 @@ export default (type, resource, params) => {
             authorization: 'Token '+localStorage.getItem('token'),
         }),
     };
-    console.log(params.filter.Search);
+    if (params.filter.q!==undefined) {
+        resource+="-filter";
+    }
     switch (type) {
         case GET_LIST: {
             const { page, perPage } = params.pagination;
             const { field, order } = params.sort;
+            let ordering = (order==='ASC') ? '+' : '-';
+            ordering += field;
             const query = {
                 sort: JSON.stringify([field, order]),
                 page: page,
                 page_size: perPage,
-                search: JSON.stringify(params.filter.Search),
+                search: params.filter.q,
+                ordering: ordering,
             };
             url = `${apiUrl}/${resource}?${stringify(query)}`;
             console.log(url);
