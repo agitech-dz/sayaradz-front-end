@@ -1,0 +1,23 @@
+{
+  "coverage": "16.66%",
+  "expectCount": 6,
+  "actualCount": 1,
+  "files": {
+    "src/AuthProvider.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/serviceWorker.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        23,
+        57,
+        101,
+        129
+      ]
+    }
+  }
+}

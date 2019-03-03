@@ -1,3 +1,7 @@
+/**
+ * This is RestProvider.
+ */
+
 import { stringify } from 'query-string';
 import {
     GET_LIST,
@@ -11,14 +15,16 @@ import {
     GET_MANY_REFERENCE,
 } from 'react-admin';
 
-const apiUrl = 'https://7d074e6d.ngrok.io/api';
+const apiUrl = 'https://53f409a2.ngrok.io/api';
+
+
 
 /**
  * Maps react-admin queries to my REST API
  *
- * @param {string} type Request type, e.g GET_LIST
- * @param {string} resource Resource name, e.g. "posts"
- * @param {Object} payload Request parameters. Depends on the request type
+ * @param {string} type - Request type, e.g GET_LIST
+ * @param {string} resource - Resource name, e.g. "posts"
+ * @param {Object} params - Request parameters. Depends on the request type
  * @returns {Promise} the Promise for a data response
  */
 export default (type, resource, params) => {

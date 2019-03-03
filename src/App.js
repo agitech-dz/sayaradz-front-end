@@ -4,6 +4,7 @@ import { Admin, Resource, Login } from 'react-admin';
 
 // Components
 import AuthProvider from './AuthProvider';
+//
 import RestProvider from './RestProvider';
 import Dashboard from './Dashboard';
 import { AdminList } from './Admins';
@@ -18,7 +19,7 @@ import UserIcon from '@material-ui/icons/Group';
 const App = () => (
     <Admin dashboard={Dashboard} authProvider={AuthProvider} dataProvider={RestProvider}>
         <Resource name="admins" options={{ label: 'Administrateurs' }} list={AdminList} icon={AdminIcon} />
-        <Resource name="manufacturers" options={{ label: 'Fabricants' }} list={ManufacturerList} edit={ManufacturerEdit} create={ManufacturerCreate} icon={ManufacturerIcon} />
+        <Resource name="manufacturers-filter" options={{ label: 'Fabricants' }} list={ManufacturerList} edit={ManufacturerEdit} create={ManufacturerCreate} icon={ManufacturerIcon} />
         <Resource name="manufacturers-users" options={{ label: 'Utilisateurs fabricants' }} list={UserList} icon={UserIcon} />
     </Admin>
 );

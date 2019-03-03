@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Sun Mar 03 2019 02:57:15 GMT+0100 (GMT+01:00)
+// Generated on Sun Mar 03 2019 06:08:53 GMT+0100 (GMT+01:00)
 
 module.exports = function(config) {
   config.set({
@@ -10,13 +10,13 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'browserify'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      'src/*.js',
-      'test/*.js'
+      'src/**/*.js',
+      'test/**/*.js'
     ],
 
 
@@ -28,19 +28,12 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      '**/*.js': ['babel']
+      'src/**/*.js': ['browserify','babel'],
+      'test/**/*.js': ['browserify', 'babel']
     },
-    babelPreprocessor: {
-      options: {
-        presets: ['@babel/preset-env'],
-        sourceMap: 'inline'
-      },
-      filename: function (file) {
-        return file.originalPath.replace(/\.js$/, '.es6.js');
-      },
-      sourceFileName: function (file) {
-        return file.originalPath;
-      }
+    browserify: {
+      debug: true,
+      transform: ['babelify']
     },
 
 
@@ -69,13 +62,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome', 'ChromeHeadless', 'ChromeHeadlessNoSandbox'],
-    customLaunchers: {
-      ChromeHeadlessNoSandbox: {
-        base: 'ChromeHeadless',
-        flags: ['--no-sandbox']
-      }
-    },
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
