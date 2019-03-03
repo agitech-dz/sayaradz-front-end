@@ -36,11 +36,11 @@ export default (type, resource, params) => {
             authorization: 'Token '+localStorage.getItem('token'),
         }),
     };
-    if (params.filter.q!==undefined) {
-        resource+="-filter";
-    }
     switch (type) {
         case GET_LIST: {
+            if (params.filter.q!==undefined) {
+                resource+="-filter";
+            }
             const { page, perPage } = params.pagination;
             const { field, order } = params.sort;
             let ordering = (order==='ASC') ? '+' : '-';

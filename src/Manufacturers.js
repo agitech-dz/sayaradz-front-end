@@ -3,6 +3,7 @@ import { Filter } from 'react-admin';
 import { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'react-admin';
 import { Edit, SimpleForm, TextInput } from 'react-admin';
 import { Create } from 'react-admin';
+import { DeleteButton } from 'react-admin';
 
 const ManufacturerTitle = () => {
     return <span>Fabricants</span>;
@@ -29,6 +30,7 @@ export const ManufacturerList = props => (
                     <TextField label="Nom" source="name"/>
                     <TextField label="Nationalité" source="nationality"/>
                     <EditButton/>
+                    <DeleteButton/>
                 </Datagrid>
             }
         />
