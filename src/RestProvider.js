@@ -11,7 +11,7 @@ import {
     GET_MANY_REFERENCE,
 } from 'react-admin';
 
-const apiUrl = 'https://76b4524c.ngrok.io/api';
+const apiUrl = 'https://7d074e6d.ngrok.io/api';
 
 /**
  * Maps react-admin queries to my REST API
@@ -26,6 +26,7 @@ export default (type, resource, params) => {
     const options = {
         headers : new Headers({
             accept: 'application/json',
+            'Content-Type':  'application/json',
             authorization: 'Token '+localStorage.getItem('token'),
         }),
     };
@@ -37,12 +38,6 @@ export default (type, resource, params) => {
                 sort: JSON.stringify([field, order]),
                 page: page,
                 page_size: perPage,
-                /*
-                range: JSON.stringify([
-                    (page - 1) * perPage,
-                    page * perPage - 1,
-                ]),
-                */
                 filter: JSON.stringify(params.filter),
             };
             url = `${apiUrl}/${resource}?${stringify(query)}`;
@@ -53,12 +48,13 @@ export default (type, resource, params) => {
             url = `${apiUrl}/${resource}/${params.id}`;
             break;
         case CREATE:
-            url = `${apiUrl}/${resource}`;
+            url = `${apiUrl}/${resource}/`;
             options.method = 'POST';
+            console.log(JSON.stringify(params.data));
             options.body = JSON.stringify(params.data);
             break;
         case UPDATE:
-            url = `${apiUrl}/${resource}/${params.id}`;
+            url = `${apiUrl}/${resource}/${params.id}/`;
             options.method = 'PUT';
             options.body = JSON.stringify(params.data);
             break;
@@ -72,14 +68,14 @@ export default (type, resource, params) => {
             break;
         }
         case DELETE:
-            url = `${apiUrl}/${resource}/${params.id}`;
+            url = `${apiUrl}/${resource}/${params.id}/`;
             options.method = 'DELETE';
             break;
         case DELETE_MANY: {
             const query = {
                 filter: JSON.stringify({ id: params.ids }),
             };
-            url = `${apiUrl}/${resource}?${stringify(query)}`;
+            url = `${apiUrl}/${resource}?${stringify(query)}/`;
             options.method = 'DELETE';
             break;
         }
@@ -122,9 +118,9 @@ export default (type, resource, params) => {
                         total: parseInt(json.count),
                     };
                 case CREATE:
-                    return { data: { ...params.data, id: json.data.id } };
+                    return { data: { ...json, id: json.id } };
                 default:
-                    return { data: json.data };
+                    return { data: json };
             }
         });
 };

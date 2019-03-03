@@ -4,6 +4,10 @@ import { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'r
 import { Edit, SimpleForm, TextInput } from 'react-admin';
 import { Create } from 'react-admin';
 
+const ManufacturerTitle = () => {
+    return <span>Fabricants</span>;
+};
+
 const ManufacturerFilter = (props) => (
     <Filter {...props}>
         <TextInput label="Search" source="q" alwaysOn />
@@ -11,7 +15,7 @@ const ManufacturerFilter = (props) => (
 );
 
 export const ManufacturerList = props => (
-    <List {...props} filters={<ManufacturerFilter />}>
+    <List title={<ManufacturerTitle />} {...props} filters={<ManufacturerFilter />}>
         <Responsive
             small={
                 <SimpleList
@@ -22,9 +26,9 @@ export const ManufacturerList = props => (
             }
             medium={
                 <Datagrid>
-                    <TextField source="id"/>
-                    <TextField source="name"/>
-                    <TextField source="nationality"/>
+                    <TextField label="Id" source="id"/>
+                    <TextField label="Nom" source="name"/>
+                    <TextField label="Nationalité" source="nationality"/>
                     <EditButton/>
                 </Datagrid>
             }

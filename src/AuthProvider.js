@@ -1,10 +1,9 @@
-/* AuthPrivider with an API */
 import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 
 export default (type, params) => {
     if (type === AUTH_LOGIN) {
         const { username, password } = params;
-        const request = new Request('https://76b4524c.ngrok.io/api/admin/login', {
+        const request = new Request('https://7d074e6d.ngrok.io/api/admin/login', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
             headers: new Headers({ 'Content-Type': 'application/json' }),

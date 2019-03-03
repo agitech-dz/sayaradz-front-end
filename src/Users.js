@@ -1,8 +1,12 @@
 import React from 'react';
 import { List, Responsive, SimpleList, Datagrid, TextField, EmailField } from 'react-admin';
 
+const UsersTitle = () => {
+    return <span>Utilisateurs fabricants</span>;
+};
+
 export const UserList = props => (
-    <List {...props}>
+    <List title={<UsersTitle />} {...props}>
         <Responsive
             small={
                 <SimpleList
@@ -13,15 +17,15 @@ export const UserList = props => (
             }
             medium={
                 <Datagrid rowClick="edit">
-                    <TextField source="id" />
-                    <TextField source="username" />
-                    <TextField source="first_name" />
-                    <TextField source="last_name" />
-                    <TextField source="address" />
-                    <TextField source="telephone" />
-                    <TextField source="manufacturer" />
-                    <EmailField source="mail" />
-                    <TextField source="is_active" />
+                    <TextField label="Id" source="id" />
+                    <TextField label="Nom d'utilisateur" source="username" />
+                    <TextField label="Prénom" source="first_name" />
+                    <TextField label="Nom" source="last_name" />
+                    <TextField label="Adresse" source="address" />
+                    <TextField label="Téléphone" source="telephone" />
+                    <TextField label="Fabricants" source="manufacturer" />
+                    <EmailField label="Mail" source="mail" />
+                    <TextField label="Etat" source="is_active" />
                 </Datagrid>
             }
         />
