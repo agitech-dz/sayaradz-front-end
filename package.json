@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "karma start --browsers Firefox --single-run",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
@@ -27,22 +27,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/polyfill": "^7.2.5",
-    "@babel/preset-env": "^7.3.4",
-    "babelify": "^10.0.0",
-    "browserify": "^16.2.3",
-    "jasmine": "^3.3.1",
-    "jasmine-core": "^3.3.0",
-    "karma": "^4.0.1",
-    "karma-babel-preprocessor": "^8.0.0-beta.0",
-    "karma-browserify": "^6.0.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^2.0.1",
-    "karma-phantomjs-launcher": "^1.0.4",
-    "karma-sourcemap-loader": "^0.3.7",
-    "watchify": "^3.11.1"
-  }
+  ]
 }

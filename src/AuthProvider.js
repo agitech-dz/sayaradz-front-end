@@ -14,11 +14,11 @@ import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 export default (type, params) => {
     if (type === AUTH_LOGIN) {
         const { username, password } = params;
-        const request = new Request('https://53f409a2.ngrok.io/api/admin/login/', {
+        const request = new Request(process.env.REACT_APP_API_URL+'/admin/login/', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
             headers: new Headers({ 'Content-Type': 'application/json' }),
-        })
+        });
         return fetch(request)
             .then(response => {
                 if (response.status < 200 || response.status >= 300) {

@@ -15,9 +15,7 @@ import {
     GET_MANY_REFERENCE,
 } from 'react-admin';
 
-const apiUrl = 'https://53f409a2.ngrok.io/api';
-
-
+const apiUrl = process.env.REACT_APP_API_URL;
 
 /**
  * Maps react-admin queries to my REST API
