@@ -11,7 +11,7 @@ const ManufacturerTitle = () => {
 
 const ManufacturerFilter = (props) => (
     <Filter {...props}>
-        <TextInput label="Search" source="q" alwaysOn />
+        <TextInput label="Rechercher" source="q" alwaysOn />
     </Filter>
 );
 

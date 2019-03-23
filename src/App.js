@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Admin, Resource, Login } from 'react-admin';
+import frenchMessages from 'ra-language-french';
 
 // Components
 import AuthProvider from './AuthProvider';
@@ -17,9 +18,13 @@ import UserIcon from '@material-ui/icons/Group';
 
 // Constants
 const MyLoginPage = () => <Login backgroundImage="./background.jpg" />;
+const messages = {
+    'fr': frenchMessages,
+};
+const i18nProvider = locale => messages[locale];
 
 const App = () => (
-    <Admin loginPage={MyLoginPage} dashboard={Dashboard} authProvider={AuthProvider} dataProvider={RestProvider}>
+    <Admin locale="fr" i18nProvider={i18nProvider} loginPage={MyLoginPage} dashboard={Dashboard} authProvider={AuthProvider} dataProvider={RestProvider}>
         <Resource name="admins" options={{ label: 'Administrateurs' }} list={AdminList} icon={AdminIcon} />
         <Resource name="manufacturers" options={{ label: 'Fabricants' }} list={ManufacturerList} edit={ManufacturerEdit} create={ManufacturerCreate} icon={ManufacturerIcon} />
         <Resource name="manufacturers-users" options={{ label: 'Utilisateurs fabricants' }} list={UserList} icon={UserIcon} />

@@ -7,6 +7,7 @@
     "esdoc": "^1.1.0",
     "esdoc-standard-plugin": "^1.0.0",
     "query-string": "latest",
+    "ra-language-french": "^2.7.3",
     "react": "^16.8.2",
     "react-admin": "^2.7.1",
     "react-dom": "^16.8.2",
