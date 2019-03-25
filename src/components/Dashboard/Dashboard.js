@@ -5,7 +5,7 @@ import { Title } from 'react-admin';
 
 export default () => (
     <Card>
-        <Title title="Dashboard" />
-        <CardContent>Bienvenue sur le dashboard</CardContent>
+        <Title title="Tableau de bord" />
+        <CardContent>Bienvenue sur le tableau de bord</CardContent>
     </Card>
 );
