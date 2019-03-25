@@ -1,0 +1,122 @@
+{
+  "coverage": "11.62%",
+  "expectCount": 43,
+  "actualCount": 5,
+  "files": {
+    "src/Colors.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        12,
+        18,
+        41,
+        51
+      ]
+    },
+    "src/components/Admins/Admins.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/components/App/App.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        20,
+        21,
+        24,
+        26
+      ]
+    },
+    "src/components/Dashboard/Dashboard.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/components/Manufacturers/Manufacturers.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        8,
+        12
+      ]
+    },
+    "src/components/Users/Users.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        8
+      ]
+    },
+    "src/file stock.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        19
+      ]
+    },
+    "src/Model.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        12,
+        18,
+        40,
+        49
+      ]
+    },
+    "src/Options.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        12,
+        18,
+        41,
+        51
+      ]
+    },
+    "src/serviceWorker.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        23,
+        57,
+        101,
+        129
+      ]
+    },
+    "src/utils/AuthProvider.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utils/RestProvider.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        18
+      ]
+    },
+    "src/Version.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        13,
+        19,
+        46,
+        63
+      ]
+    }
+  }
+}

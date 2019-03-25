@@ -1,0 +1,1912 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Colors.js",
+    "content": "import React from 'react';\r\nimport { Filter } from 'react-admin';\r\nimport { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'react-admin';\r\nimport { Edit, SimpleForm, TextInput } from 'react-admin';\r\nimport { Create } from 'react-admin';\r\nimport { DeleteButton } from 'react-admin';\r\n\r\nconst ColorsTitle = () => {\r\n    return <span>Colors Manage</span>;\r\n};\r\n\r\nconst ColorsFilter = (props) => (\r\n    <Filter {...props}>\r\n        <TextInput label=\"Search\" source=\"q\" alwaysOn />\r\n    </Filter>\r\n);\r\n\r\nexport const ColorsList = props => (\r\n    <List title={<ColorsTitle/>} {...props} filters={<ColorsFilter />}>\r\n        <Responsive\r\n            small={\r\n                <SimpleList\r\n                    primaryText={record => record.code_Colors}\r\n                    secondaryText={record => `${record.name_Colors}`}\r\n                    tertiaryText={record => `${record.name_Model}`}\r\n                />\r\n            }\r\n            medium={\r\n                <Datagrid>\r\n                    <TextField label=\"Code\" source=\"code_Colors\"/>\r\n                    <TextField label=\"Nom\" source=\"name_Colors\"/>\r\n                    <TextField label=\"Options\" source=\"name_Model\"/>\r\n                    <EditButton/>\r\n                    <DeleteButton/>\r\n                </Datagrid>\r\n            }\r\n        />\r\n    </List>\r\n);\r\n\r\nexport const ColorsEdit = props => (\r\n    <Edit {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Colors\" />\r\n            <TextInput source=\"name_Colors\" />\r\n            <TextInput source=\"name_Model\" />\r\n        </SimpleForm>\r\n    </Edit>\r\n);\r\n\r\nexport const ColorsCreate = props => (\r\n    <Create {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Colors\" />\r\n            <TextInput source=\"name_Colors\" />\r\n            <TextInput source=\"name_Model\" />\r\n        </SimpleForm>\r\n    </Create>\r\n);\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/Colors.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "ColorsTitle",
+    "memberof": "src/Colors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Colors.js~ColorsTitle",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Colors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "ColorsFilter",
+    "memberof": "src/Colors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Colors.js~ColorsFilter",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Colors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "ColorsList",
+    "memberof": "src/Colors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Colors.js~ColorsList",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Colors.js",
+    "importStyle": "{ColorsList}",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "ColorsEdit",
+    "memberof": "src/Colors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Colors.js~ColorsEdit",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Colors.js",
+    "importStyle": "{ColorsEdit}",
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "ColorsCreate",
+    "memberof": "src/Colors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Colors.js~ColorsCreate",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Colors.js",
+    "importStyle": "{ColorsCreate}",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/components/Admins/Admins.js",
+    "content": "import React from 'react';\r\nimport { List, Responsive, SimpleList, Datagrid, TextField } from 'react-admin';\r\n\r\nexport const AdminList = props => (\r\n    <List {...props}>\r\n        <Responsive\r\n            small={\r\n                <SimpleList\r\n                    primaryText={record => `${record.nom} ${record.prenom}`}\r\n                    secondaryText={record => `${record.mail}`}\r\n                    tertiaryText={record => `${record.id}`}\r\n                />\r\n            }\r\n            medium={\r\n                <Datagrid rowClick=\"edit\">\r\n                    <TextField source=\"id\" />\r\n                    <TextField source=\"mail\" />\r\n                    <TextField source=\"nom\" />\r\n                    <TextField source=\"prenom\" />\r\n                </Datagrid>\r\n            }\r\n        />\r\n    </List>\r\n);\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/components/Admins/Admins.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "AdminList",
+    "memberof": "src/components/Admins/Admins.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Admins/Admins.js~AdminList",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/components/Admins/Admins.js",
+    "importStyle": "{AdminList}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/components/App/App.js",
+    "content": "import React from 'react';\r\nimport './App.css';\r\nimport { Admin, Resource, Login } from 'react-admin';\r\nimport frenchMessages from 'ra-language-french';\r\n\r\n// Components\r\nimport AuthProvider from '../../utils/AuthProvider';\r\nimport RestProvider from '../../utils/RestProvider';\r\nimport Dashboard from '../Dashboard/Dashboard';\r\nimport { AdminList } from '../Admins/Admins';\r\nimport { ManufacturerList, ManufacturerEdit, ManufacturerCreate } from '../Manufacturers/Manufacturers';\r\nimport { UserList } from '../Users/Users';\r\n\r\n// Icons\r\nimport AdminIcon from '@material-ui/icons/Person';\r\nimport ManufacturerIcon from '@material-ui/icons/DirectionsCar';\r\nimport UserIcon from '@material-ui/icons/Group';\r\n\r\n// Constants\r\nconst MyLoginPage = () => <Login backgroundImage=\"./background.jpg\" />;\r\nconst messages = {\r\n    'fr': frenchMessages,\r\n};\r\nconst i18nProvider = locale => messages[locale];\r\n\r\nconst App = () => (\r\n    <Admin locale=\"fr\" i18nProvider={i18nProvider}loginPage={MyLoginPage} dashboard={Dashboard} authProvider={AuthProvider} dataProvider={RestProvider}>\r\n        <Resource name=\"admins//\" options={{ label: 'Administrateurs' }} list={AdminList} icon={AdminIcon} />\r\n        <Resource name=\"manufacturers\" options={{ label: 'Fabricants' }} list={ManufacturerList} edit={ManufacturerEdit} create={ManufacturerCreate} icon={ManufacturerIcon} />\r\n        <Resource name=\"manufacturers-users\" options={{ label: 'Utilisateurs fabricants' }} list={UserList} icon={UserIcon} />\r\n    </Admin>\r\n);\r\n\r\nexport default App;\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/components/App/App.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "MyLoginPage",
+    "memberof": "src/components/App/App.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/App/App.js~MyLoginPage",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/components/App/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "messages",
+    "memberof": "src/components/App/App.js",
+    "static": true,
+    "longname": "src/components/App/App.js~messages",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/components/App/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"fr\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "i18nProvider",
+    "memberof": "src/components/App/App.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/App/App.js~i18nProvider",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/components/App/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "locale",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "App",
+    "memberof": "src/components/App/App.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/App/App.js~App",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/components/App/App.js",
+    "importStyle": "App",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/components/Dashboard/Dashboard.js",
+    "content": "import React from 'react';\r\nimport Card from '@material-ui/core/Card';\r\nimport CardContent from '@material-ui/core/CardContent';\r\nimport { Title } from 'react-admin';\r\n\r\nexport default () => (\r\n    <Card>\r\n        <Title title=\"Tableau de bord\" />\r\n        <CardContent>Bienvenue sur le tableau de bord</CardContent>\r\n    </Card>\r\n);\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/components/Dashboard/Dashboard.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "Dashboard",
+    "memberof": "src/components/Dashboard/Dashboard.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Dashboard/Dashboard.js~Dashboard",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/components/Dashboard/Dashboard.js",
+    "importStyle": "Dashboard",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/components/Manufacturers/Manufacturers.js",
+    "content": "import React from 'react';\r\nimport { Filter } from 'react-admin';\r\nimport { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'react-admin';\r\nimport { Edit, SimpleForm, TextInput } from 'react-admin';\r\nimport { Create } from 'react-admin';\r\nimport { DeleteButton } from 'react-admin';\r\n\r\nconst ManufacturerTitle = () => {\r\n    return <span>Fabricants</span>;\r\n};\r\n\r\nconst ManufacturerFilter = (props) => (\r\n    <Filter {...props}>\r\n        <TextInput label=\"Rechercher\" source=\"q\" alwaysOn />\r\n    </Filter>\r\n);\r\n\r\n/**\r\n * Manufacturers List\r\n * @returns { List } the list of manufacturers\r\n */\r\nexport const ManufacturerList = props => (\r\n    <List title={<ManufacturerTitle />} {...props} filters={<ManufacturerFilter />}>\r\n        <Responsive\r\n            small={\r\n                <SimpleList\r\n                    primaryText={record => record.name}\r\n                    secondaryText={record => `${record.nationality}`}\r\n                />\r\n            }\r\n            medium={\r\n                <Datagrid>\r\n                    <TextField label=\"Id\" source=\"id\"/>\r\n                    <TextField label=\"Nom\" source=\"name\"/>\r\n                    <TextField label=\"Nationalité\" source=\"nationality\"/>\r\n                    <EditButton/>\r\n                    <DeleteButton/>\r\n                </Datagrid>\r\n            }\r\n        />\r\n    </List>\r\n);\r\n\r\n/**\r\n * Manufacturers edit form\r\n * @returns { Edit } the edit form of a manufacturer\r\n */\r\nexport const ManufacturerEdit = props => (\r\n    <Edit {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"name\" />\r\n            <TextInput source=\"nationality\" />\r\n        </SimpleForm>\r\n    </Edit>\r\n);\r\n\r\n/**\r\n * Manufacturers create form\r\n * @returns { Edit } the create form of a manufacturer\r\n */\r\nexport const ManufacturerCreate = props => (\r\n    <Create {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"name\" />\r\n            <TextInput source=\"nationality\" />\r\n        </SimpleForm>\r\n    </Create>\r\n);\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/components/Manufacturers/Manufacturers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "ManufacturerTitle",
+    "memberof": "src/components/Manufacturers/Manufacturers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Manufacturers/Manufacturers.js~ManufacturerTitle",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/components/Manufacturers/Manufacturers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "ManufacturerFilter",
+    "memberof": "src/components/Manufacturers/Manufacturers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Manufacturers/Manufacturers.js~ManufacturerFilter",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/components/Manufacturers/Manufacturers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "ManufacturerList",
+    "memberof": "src/components/Manufacturers/Manufacturers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Manufacturers/Manufacturers.js~ManufacturerList",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/components/Manufacturers/Manufacturers.js",
+    "importStyle": "{ManufacturerList}",
+    "description": "Manufacturers List",
+    "lineNumber": 22,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{ List } the list of manufacturers"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        " List "
+      ],
+      "spread": false,
+      "description": "the list of manufacturers"
+    },
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "ManufacturerEdit",
+    "memberof": "src/components/Manufacturers/Manufacturers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Manufacturers/Manufacturers.js~ManufacturerEdit",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/components/Manufacturers/Manufacturers.js",
+    "importStyle": "{ManufacturerEdit}",
+    "description": "Manufacturers edit form",
+    "lineNumber": 48,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{ Edit } the edit form of a manufacturer"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        " Edit "
+      ],
+      "spread": false,
+      "description": "the edit form of a manufacturer"
+    },
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "ManufacturerCreate",
+    "memberof": "src/components/Manufacturers/Manufacturers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Manufacturers/Manufacturers.js~ManufacturerCreate",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/components/Manufacturers/Manufacturers.js",
+    "importStyle": "{ManufacturerCreate}",
+    "description": "Manufacturers create form",
+    "lineNumber": 61,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{ Edit } the create form of a manufacturer"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        " Edit "
+      ],
+      "spread": false,
+      "description": "the create form of a manufacturer"
+    },
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/components/Users/Users.js",
+    "content": "import React from 'react';\r\nimport { List, Responsive, SimpleList, Datagrid, TextField, EmailField } from 'react-admin';\r\n\r\nconst UsersTitle = () => {\r\n    return <span>Utilisateurs fabricants</span>;\r\n};\r\n\r\nexport const UserList = props => (\r\n    <List title={<UsersTitle />} {...props}>\r\n        <Responsive\r\n            small={\r\n                <SimpleList\r\n                    primaryText={record => `${record.username}`}\r\n                    secondaryText={record => `${record.first_name} ${record.last_name}`}\r\n                    tertiaryText={record => `${record.id}`}\r\n                />\r\n            }\r\n            medium={\r\n                <Datagrid rowClick=\"edit\">\r\n                    <TextField label=\"Id\" source=\"id\" />\r\n                    <TextField label=\"Nom d'utilisateur\" source=\"username\" />\r\n                    <TextField label=\"Prénom\" source=\"first_name\" />\r\n                    <TextField label=\"Nom\" source=\"last_name\" />\r\n                    <TextField label=\"Adresse\" source=\"address\" />\r\n                    <TextField label=\"Téléphone\" source=\"telephone\" />\r\n                    <TextField label=\"Fabricants\" source=\"manufacturer\" />\r\n                    <EmailField label=\"Mail\" source=\"mail\" />\r\n                    <TextField label=\"Etat\" source=\"is_active\" />\r\n                </Datagrid>\r\n            }\r\n        />\r\n    </List>\r\n);\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/components/Users/Users.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "UsersTitle",
+    "memberof": "src/components/Users/Users.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Users/Users.js~UsersTitle",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/components/Users/Users.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "UserList",
+    "memberof": "src/components/Users/Users.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Users/Users.js~UserList",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/components/Users/Users.js",
+    "importStyle": "{UserList}",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/file stock.js",
+    "content": "import React from 'react';\r\nimport CSVReader from \"react-csv-reader\";\r\nimport axios from 'axios';\r\n\r\nconst handleForce = data => {\r\n   var myObjStr = JSON.stringify(data);\r\n   \r\n    console.log(JSON.parse(myObjStr));\r\n   /* const Donnee = {\r\n      name: myObjStr\r\n      \r\n    }*/\r\n  axios.post('http://localhost:4000/Donnee/add', myObjStr)\r\n  .then(res => console.log(res.data));\r\n  \r\n};\r\n\r\n\r\nexport const filestock = () => (\r\n  <div className=\"container\">\r\n  <br/>\r\n  <br/>\r\n    <CSVReader\r\n      cssClass=\"react-csv-input\"\r\n      label=\"Select CSV file \"\r\n      onFileLoaded={handleForce}\r\n    />\r\n\r\n  </div>\r\n);\r\n\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/file stock.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "handleForce",
+    "memberof": "src/file stock.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/file stock.js~handleForce",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/file stock.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "data",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "filestock",
+    "memberof": "src/file stock.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/file stock.js~filestock",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/file stock.js",
+    "importStyle": "{filestock}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport App from './components/App/App';\nimport * as serviceWorker from './serviceWorker';\n\nReactDOM.render(<App />, document.getElementById('root'));\n\n// If you want your app to work offline and load faster, you can change\n// unregister() to register() below. Note this comes with some pitfalls.\n// Learn more about service workers: http://bit.ly/CRA-PWA\nserviceWorker.unregister();\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/Model.js",
+    "content": "import React from 'react';\r\nimport { Filter } from 'react-admin';\r\nimport { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'react-admin';\r\nimport { Edit, SimpleForm, TextInput } from 'react-admin';\r\nimport { Create } from 'react-admin';\r\nimport { DeleteButton } from 'react-admin';\r\n\r\nconst ModelTitle = () => {\r\n    return <span>Model Manage</span>;\r\n};\r\n\r\nconst ModelFilter = (props) => (\r\n    <Filter {...props}>\r\n        <TextInput label=\"Search\" source=\"q\" alwaysOn />\r\n    </Filter>\r\n);\r\n\r\nexport const ModelList = props => (\r\n    <List title={<ModelTitle />} {...props} filters={<ModelFilter />}>\r\n        <Responsive\r\n            small={\r\n                <SimpleList\r\n                    primaryText={record => record.code_Model}\r\n                    secondaryText={record => `${record.name_Model}`}\r\n                />\r\n            }\r\n            medium={\r\n                <Datagrid>\r\n                    <TextField label=\"Code\" source=\"code_Model\"/>\r\n                    <TextField label=\"Nom\" source=\"name_Model\"/>\r\n                   \r\n                    <EditButton/>\r\n                    <DeleteButton/>\r\n                </Datagrid>\r\n            }\r\n        />\r\n    </List>\r\n);\r\n\r\nexport const ModelEdit = props => (\r\n    <Edit {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Model\" />\r\n            <TextInput source=\"name_Model\" />\r\n        </SimpleForm>\r\n    </Edit>\r\n);\r\n\r\nexport const ModelCreate = props => (\r\n    <Create {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Model\" />\r\n            <TextInput source=\"name_Model\" />\r\n        </SimpleForm>\r\n    </Create>\r\n);\r\n\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/Model.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "ModelTitle",
+    "memberof": "src/Model.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Model.js~ModelTitle",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Model.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "ModelFilter",
+    "memberof": "src/Model.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Model.js~ModelFilter",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Model.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "ModelList",
+    "memberof": "src/Model.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Model.js~ModelList",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Model.js",
+    "importStyle": "{ModelList}",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "ModelEdit",
+    "memberof": "src/Model.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Model.js~ModelEdit",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Model.js",
+    "importStyle": "{ModelEdit}",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "ModelCreate",
+    "memberof": "src/Model.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Model.js~ModelCreate",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Model.js",
+    "importStyle": "{ModelCreate}",
+    "description": null,
+    "lineNumber": 49,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/Options.js",
+    "content": "import React from 'react';\r\nimport { Filter } from 'react-admin';\r\nimport { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'react-admin';\r\nimport { Edit, SimpleForm, TextInput } from 'react-admin';\r\nimport { Create } from 'react-admin';\r\nimport { DeleteButton } from 'react-admin';\r\n\r\nconst OptionsTitle = () => {\r\n    return <span>Options Manage</span>;\r\n};\r\n\r\nconst OptionsFilter = (props) => (\r\n    <Filter {...props}>\r\n        <TextInput label=\"Search\" source=\"q\" alwaysOn />\r\n    </Filter>\r\n);\r\n\r\nexport const OptionsList = props => (\r\n    <List title={<OptionsTitle/>} {...props} filters={<OptionsFilter />}>\r\n        <Responsive\r\n            small={\r\n                <SimpleList\r\n                    primaryText={record => record.code_Option}\r\n                    secondaryText={record => `${record.name_Option}`}\r\n                    tertiaryText={record => `${record.name_Model}`}\r\n                />\r\n            }\r\n            medium={\r\n                <Datagrid>\r\n                    <TextField label=\"Code\" source=\"code_Option\"/>\r\n                    <TextField label=\"Nom\" source=\"name_Option\"/>\r\n                    <TextField label=\"Options\" source=\"name_Model\"/>\r\n                    <EditButton/>\r\n                    <DeleteButton/>\r\n                </Datagrid>\r\n            }\r\n        />\r\n    </List>\r\n);\r\n\r\nexport const OptionsEdit = props => (\r\n    <Edit {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Option\" />\r\n            <TextInput source=\"name_Opton\" />\r\n            <TextInput source=\"name_Model\" />\r\n        </SimpleForm>\r\n    </Edit>\r\n);\r\n\r\nexport const OptionsCreate = props => (\r\n    <Create {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Option\" />\r\n            <TextInput source=\"name_Option\" />\r\n            <TextInput source=\"name_Model\" />\r\n        </SimpleForm>\r\n    </Create>\r\n);\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/Options.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "OptionsTitle",
+    "memberof": "src/Options.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Options.js~OptionsTitle",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Options.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "OptionsFilter",
+    "memberof": "src/Options.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Options.js~OptionsFilter",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Options.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "OptionsList",
+    "memberof": "src/Options.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Options.js~OptionsList",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Options.js",
+    "importStyle": "{OptionsList}",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "OptionsEdit",
+    "memberof": "src/Options.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Options.js~OptionsEdit",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Options.js",
+    "importStyle": "{OptionsEdit}",
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "OptionsCreate",
+    "memberof": "src/Options.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Options.js~OptionsCreate",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Options.js",
+    "importStyle": "{OptionsCreate}",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/serviceWorker.js",
+    "content": "// This optional code is used to register a service worker.\n// register() is not called by default.\n\n// This lets the app load faster on subsequent visits in production, and gives\n// it offline capabilities. However, it also means that developers (and users)\n// will only see deployed updates on subsequent visits to a page, after all the\n// existing tabs open on the page have been closed, since previously cached\n// resources are updated in the background.\n\n// To learn more about the benefits of this model and instructions on how to\n// opt-in, read http://bit.ly/CRA-PWA\n\nconst isLocalhost = Boolean(\n  window.location.hostname === 'localhost' ||\n    // [::1] is the IPv6 localhost address.\n    window.location.hostname === '[::1]' ||\n    // 127.0.0.1/8 is considered localhost for IPv4.\n    window.location.hostname.match(\n      /^127(?:\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/\n    )\n);\n\nexport function register(config) {\n  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {\n    // The URL constructor is available in all browsers that support SW.\n    const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);\n    if (publicUrl.origin !== window.location.origin) {\n      // Our service worker won't work if PUBLIC_URL is on a different origin\n      // from what our page is served on. This might happen if a CDN is used to\n      // serve assets; see https://github.com/facebook/create-react-app/issues/2374\n      return;\n    }\n\n    window.addEventListener('load', () => {\n      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;\n\n      if (isLocalhost) {\n        // This is running on localhost. Let's check if a service worker still exists or not.\n        checkValidServiceWorker(swUrl, config);\n\n        // Add some additional logging to localhost, pointing developers to the\n        // service worker/PWA documentation.\n        navigator.serviceWorker.ready.then(() => {\n          console.log(\n            'This web app is being served cache-first by a service ' +\n              'worker. To learn more, visit http://bit.ly/CRA-PWA'\n          );\n        });\n      } else {\n        // Is not localhost. Just register service worker\n        registerValidSW(swUrl, config);\n      }\n    });\n  }\n}\n\nfunction registerValidSW(swUrl, config) {\n  navigator.serviceWorker\n    .register(swUrl)\n    .then(registration => {\n      registration.onupdatefound = () => {\n        const installingWorker = registration.installing;\n        if (installingWorker == null) {\n          return;\n        }\n        installingWorker.onstatechange = () => {\n          if (installingWorker.state === 'installed') {\n            if (navigator.serviceWorker.controller) {\n              // At this point, the updated precached content has been fetched,\n              // but the previous service worker will still serve the older\n              // content until all client tabs are closed.\n              console.log(\n                'New content is available and will be used when all ' +\n                  'tabs for this page are closed. See http://bit.ly/CRA-PWA.'\n              );\n\n              // Execute callback\n              if (config && config.onUpdate) {\n                config.onUpdate(registration);\n              }\n            } else {\n              // At this point, everything has been precached.\n              // It's the perfect time to display a\n              // \"Content is cached for offline use.\" message.\n              console.log('Content is cached for offline use.');\n\n              // Execute callback\n              if (config && config.onSuccess) {\n                config.onSuccess(registration);\n              }\n            }\n          }\n        };\n      };\n    })\n    .catch(error => {\n      console.error('Error during service worker registration:', error);\n    });\n}\n\nfunction checkValidServiceWorker(swUrl, config) {\n  // Check if the service worker can be found. If it can't reload the page.\n  fetch(swUrl)\n    .then(response => {\n      // Ensure service worker exists, and that we really are getting a JS file.\n      const contentType = response.headers.get('content-type');\n      if (\n        response.status === 404 ||\n        (contentType != null && contentType.indexOf('javascript') === -1)\n      ) {\n        // No service worker found. Probably a different app. Reload the page.\n        navigator.serviceWorker.ready.then(registration => {\n          registration.unregister().then(() => {\n            window.location.reload();\n          });\n        });\n      } else {\n        // Service worker found. Proceed as normal.\n        registerValidSW(swUrl, config);\n      }\n    })\n    .catch(() => {\n      console.log(\n        'No internet connection found. App is running in offline mode.'\n      );\n    });\n}\n\nexport function unregister() {\n  if ('serviceWorker' in navigator) {\n    navigator.serviceWorker.ready.then(registration => {\n      registration.unregister();\n    });\n  }\n}\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/serviceWorker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "name": "isLocalhost",
+    "memberof": "src/serviceWorker.js",
+    "static": true,
+    "longname": "src/serviceWorker.js~isLocalhost",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/serviceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "register",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~register",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/serviceWorker.js",
+    "importStyle": "{register}",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "config",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "registerValidSW",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~registerValidSW",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/serviceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 57,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "config",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "checkValidServiceWorker",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~checkValidServiceWorker",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/serviceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 101,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "config",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "unregister",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~unregister",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/serviceWorker.js",
+    "importStyle": "{unregister}",
+    "description": null,
+    "lineNumber": 129,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/utils/AuthProvider.js",
+    "content": "import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';\r\n\r\n/**\r\n * This is AuthProvider.\r\n */\r\n\r\n/**\r\n * Maps react-admin auth queries to my REST API\r\n *\r\n * @param {string} type - Auth type, e.g GET_LIST\r\n * @param {Object} params - Auth parameters. Depends on the auth type\r\n * @returns {Promise} the Promise for an auth response\r\n */\r\nexport default (type, params) => {\r\n    if (type === AUTH_LOGIN) {\r\n        const { username, password } = params;\r\n        const request = new Request(process.env.REACT_APP_API_URL+'/admin/login/', {\r\n            method: 'POST',\r\n            body: JSON.stringify({ username, password }),\r\n            headers: new Headers({ 'Content-Type': 'application/json' }),\r\n        });\r\n        return fetch(request)\r\n            .then(response => {\r\n                if (response.status < 200 || response.status >= 300) {\r\n                    throw new Error(response.statusText);\r\n                }\r\n                return response.json();\r\n            })\r\n            .then(({ auth_token }) => {\r\n                localStorage.setItem('token', auth_token);\r\n            });\r\n    }\r\n    if (type === AUTH_LOGOUT) {\r\n        localStorage.removeItem('token');\r\n        return Promise.resolve();\r\n    }\r\n    if (type === AUTH_ERROR) {\r\n        const status  = params.status;\r\n        if (status === 401 || status === 403) {\r\n            localStorage.removeItem('token');\r\n            return Promise.reject();\r\n        }\r\n        return Promise.resolve();\r\n    }\r\n    if (type === AUTH_CHECK) {\r\n        return localStorage.getItem('token') ? Promise.resolve() : Promise.reject();\r\n    }\r\n    return Promise.reject('Unknown method');\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/utils/AuthProvider.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "AuthProvider",
+    "memberof": "src/utils/AuthProvider.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/AuthProvider.js~AuthProvider",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/utils/AuthProvider.js",
+    "importStyle": "AuthProvider",
+    "description": "Maps react-admin auth queries to my REST API",
+    "lineNumber": 14,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise} the Promise for an auth response"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": "Auth type, e.g GET_LIST"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "params",
+        "description": "Auth parameters. Depends on the auth type"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "the Promise for an auth response"
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "src/utils/RestProvider.js",
+    "content": "/**\r\n * This is RestProvider.\r\n */\r\n\r\nimport { stringify } from 'query-string';\r\nimport {\r\n    GET_LIST,\r\n    GET_ONE,\r\n    CREATE,\r\n    UPDATE,\r\n    UPDATE_MANY,\r\n    DELETE,\r\n    DELETE_MANY,\r\n    GET_MANY,\r\n    GET_MANY_REFERENCE,\r\n} from 'react-admin';\r\n\r\nconst apiUrl = process.env.REACT_APP_API_URL;\r\n\r\n/**\r\n * Maps react-admin queries to my REST API\r\n *\r\n * @param {string} type - Request type, e.g GET_LIST\r\n * @param {string} resource - Resource name, e.g. \"posts\"\r\n * @param {Object} params - Request parameters. Depends on the request type\r\n * @returns {Promise} the Promise for a data response\r\n */\r\nexport default (type, resource, params) => {\r\n    let url = '';\r\n    const options = {\r\n        headers : new Headers({\r\n            accept: 'application/json',\r\n            'Content-Type':  'application/json',\r\n            authorization: 'Token '+localStorage.getItem('token'),\r\n        }),\r\n    };\r\n    switch (type) {\r\n        case GET_LIST: {\r\n            if (params.filter.q!==undefined) {\r\n                resource+=\"-filter\";\r\n            }\r\n            const { page, perPage } = params.pagination;\r\n            const { field, order } = params.sort;\r\n            let ordering = (order==='ASC') ? '+' : '-';\r\n            ordering += field;\r\n            const query = {\r\n                sort: JSON.stringify([field, order]),\r\n                page: page,\r\n                page_size: perPage,\r\n                search: params.filter.q,\r\n                ordering: ordering,\r\n            };\r\n            url = `${apiUrl}/${resource}?${stringify(query)}`;\r\n            console.log(url);\r\n            break;\r\n        }\r\n        case GET_ONE:\r\n            url = `${apiUrl}/${resource}/${params.id}`;\r\n            break;\r\n        case CREATE:\r\n            url = `${apiUrl}/${resource}/`;\r\n            options.method = 'POST';\r\n            console.log(JSON.stringify(params.data));\r\n            options.body = JSON.stringify(params.data);\r\n            break;\r\n        case UPDATE:\r\n            url = `${apiUrl}/${resource}/${params.id}/`;\r\n            options.method = 'PUT';\r\n            options.body = JSON.stringify(params.data);\r\n            break;\r\n        case UPDATE_MANY: {\r\n            const query = {\r\n                filter: JSON.stringify({ id: params.ids }),\r\n            };\r\n            url = `${apiUrl}/${resource}?${stringify(query)}`;\r\n            options.method = 'PATCH';\r\n            options.body = JSON.stringify(params.data);\r\n            break;\r\n        }\r\n        case DELETE:\r\n            url = `${apiUrl}/${resource}/${params.id}/`;\r\n            options.method = 'DELETE';\r\n            break;\r\n        case DELETE_MANY: {\r\n            const query = {\r\n                filter: JSON.stringify({ id: params.ids }),\r\n            };\r\n            url = `${apiUrl}/${resource}?${stringify(query)}/`;\r\n            options.method = 'DELETE';\r\n            break;\r\n        }\r\n        case GET_MANY: {\r\n            const query = {\r\n                filter: JSON.stringify({ id: params.ids }),\r\n            };\r\n            url = `${apiUrl}/${resource}?${stringify(query)}`;\r\n            break;\r\n        }\r\n        case GET_MANY_REFERENCE: {\r\n            const { page, perPage } = params.pagination;\r\n            const { field, order } = params.sort;\r\n            const query = {\r\n                sort: JSON.stringify([field, order]),\r\n                range: JSON.stringify([\r\n                    (page - 1) * perPage,\r\n                    page * perPage - 1,\r\n                ]),\r\n                filter: JSON.stringify({\r\n                    ...params.filter,\r\n                    [params.target]: params.id,\r\n                }),\r\n            };\r\n            url = `${apiUrl}/${resource}?${stringify(query)}`;\r\n            break;\r\n        }\r\n        default:\r\n            throw new Error(`Unsupported Data Provider request type ${type}`);\r\n    }\r\n\r\n    return fetch(url, options)\r\n        .then(res => res.json())\r\n        .then(json => {\r\n            switch (type) {\r\n                case GET_LIST:\r\n                case GET_MANY_REFERENCE:\r\n                    return {\r\n                        data: json.results,\r\n                        total: parseInt(json.count),\r\n                    };\r\n                case CREATE:\r\n                    return { data: { ...json, id: json.id } };\r\n                default:\r\n                    return { data: json };\r\n            }\r\n        });\r\n};\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/utils/RestProvider.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "name": "apiUrl",
+    "memberof": "src/utils/RestProvider.js",
+    "static": true,
+    "longname": "src/utils/RestProvider.js~apiUrl",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/utils/RestProvider.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "RestProvider",
+    "memberof": "src/utils/RestProvider.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/RestProvider.js~RestProvider",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/utils/RestProvider.js",
+    "importStyle": "RestProvider",
+    "description": "Maps react-admin queries to my REST API",
+    "lineNumber": 28,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise} the Promise for a data response"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": "Request type, e.g GET_LIST"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "resource",
+        "description": "Resource name, e.g. \"posts\""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "params",
+        "description": "Request parameters. Depends on the request type"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "the Promise for a data response"
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "src/Version.js",
+    "content": "import React from 'react';\r\nimport { Filter } from 'react-admin';\r\nimport { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'react-admin';\r\nimport { Edit, SimpleForm, TextInput } from 'react-admin';\r\nimport { Create } from 'react-admin';\r\nimport { DeleteButton } from 'react-admin';\r\nimport { ReferenceArrayInput,ChipField, SelectArrayInput,SingleFieldList,ReferenceArrayField, } from 'react-admin';\r\n\r\nconst VersionTitle = () => {\r\n    return <span>Version Manage</span>;\r\n};\r\n\r\nconst VersionFilter = (props) => (\r\n    <Filter {...props}>\r\n        <TextInput label=\"Search\" source=\"q\" alwaysOn />\r\n    </Filter>\r\n);\r\n\r\nexport const VersionList = props => (\r\n    <List title={<VersionTitle/>} {...props} filters={<VersionFilter />}>\r\n        <Responsive\r\n            small={\r\n                <SimpleList\r\n                    primaryText={record => record.code_Version}\r\n                    secondaryText={record => `${record.name_Version}`}\r\n                    \r\n                />\r\n            }\r\n            medium={\r\n                <Datagrid>\r\n                    <TextField label=\"Code\" source=\"code_Version\"/>\r\n                    <TextField label=\"Nom\" source=\"name_Version\"/>\r\n                    <ReferenceArrayField label=\"Options\" reference=\"Option\" source=\"code_Options\">\r\n                <SingleFieldList>\r\n                    <ChipField source=\"name_Option\" />\r\n                </SingleFieldList>\r\n            </ReferenceArrayField>\r\n                    <EditButton/>\r\n                    <DeleteButton/>\r\n                </Datagrid>\r\n            }\r\n        />\r\n    </List>\r\n);\r\n\r\nexport const VersionEdit = props => (\r\n    <Edit {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Version\" />\r\n            <TextInput source=\"name_Version\" />\r\n            <ReferenceArrayInput source=\"code_Options\" reference=\"Option\">\r\n    <SelectArrayInput optionText=\"name_Option\" />\r\n</ReferenceArrayInput>\r\n        </SimpleForm>\r\n    </Edit>\r\n);\r\n/*<SelectArrayInput label=\"Tags\" source=\"optionName\" choices={[\r\n    { code: '1', name: 'opt1 },\r\n    { code: '2', name: 'opt2' },\r\n    { code: '3', name: 'opt3' },\r\n   \r\n]} />*/\r\nexport const VersionCreate = props => (\r\n    <Create {...props}>\r\n        <SimpleForm>\r\n            <TextInput source=\"code_Version\" />\r\n            <TextInput source=\"name_Version\" />\r\n            <ReferenceArrayInput source=\"code_Options\" reference=\"Option\">\r\n    <SelectArrayInput optionText=\"name_Option\" />\r\n</ReferenceArrayInput>\r\n            \r\n\r\n        </SimpleForm>\r\n    </Create>\r\n);\r\n\r\n",
+    "static": true,
+    "longname": "C:/Users/Ibrahim/WebstormProjects/sayaradz/src/Version.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "VersionTitle",
+    "memberof": "src/Version.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Version.js~VersionTitle",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Version.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "VersionFilter",
+    "memberof": "src/Version.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Version.js~VersionFilter",
+    "access": "public",
+    "export": false,
+    "importPath": "sayaradz/src/Version.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "VersionList",
+    "memberof": "src/Version.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Version.js~VersionList",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Version.js",
+    "importStyle": "{VersionList}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "VersionEdit",
+    "memberof": "src/Version.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Version.js~VersionEdit",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Version.js",
+    "importStyle": "{VersionEdit}",
+    "description": null,
+    "lineNumber": 46,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "VersionCreate",
+    "memberof": "src/Version.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Version.js~VersionCreate",
+    "access": "public",
+    "export": true,
+    "importPath": "sayaradz/src/Version.js",
+    "importStyle": "{VersionCreate}",
+    "description": null,
+    "lineNumber": 63,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.<br>\nOpen [http://localhost:3000](http://localhost:3000) to view it in the browser.\n\nThe page will reload if you make edits.<br>\nYou will also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.<br>\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.<br>\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.<br>\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can’t go back!**\n\nIf you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.\n\nInstead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.\n\nYou don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.\n\n## Learn More\n\nYou can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).\n\nTo learn React, check out the [React documentation](https://reactjs.org/).\n\n### Code Splitting\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting\n\n### Analyzing the Bundle Size\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size\n\n### Making a Progressive Web App\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app\n\n### Advanced Configuration\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration\n\n### Deployment\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/deployment\n\n### `npm run build` fails to minify\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify\n",
+    "longname": "C:\\Users\\Ibrahim\\WebstormProjects\\sayaradz\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\r\n  \"name\": \"sayaradz\",\r\n  \"version\": \"0.1.0\",\r\n  \"private\": true,\r\n  \"dependencies\": {\r\n    \"@material-ui/core\": \"^3.9.2\",\r\n    \"@material-ui/icons\": \"^3.0.2\",\r\n    \"query-string\": \"^6.4.0\",\r\n    \"ra-language-french\": \"^2.7.3\",\r\n    \"react\": \"^16.8.2\",\r\n    \"react-admin\": \"^2.7.1\",\r\n    \"react-dom\": \"^16.8.2\",\r\n    \"react-scripts\": \"2.1.5\"\r\n  },\r\n  \"scripts\": {\r\n    \"start\": \"react-scripts start\",\r\n    \"build\": \"react-scripts build\",\r\n    \"test\": \"react-scripts test\",\r\n    \"eject\": \"react-scripts eject\",\r\n    \"heroku-postbuild\": \"npm run build\"\r\n  },\r\n  \"eslintConfig\": {\r\n    \"extends\": \"react-app\"\r\n  },\r\n  \"browserslist\": [\r\n    \">0.2%\",\r\n    \"not dead\",\r\n    \"not ie <= 11\",\r\n    \"not op_mini all\"\r\n  ],\r\n  \"devDependencies\": {\r\n    \"enzyme\": \"^3.9.0\",\r\n    \"enzyme-adapter-react-16\": \"^1.11.2\",\r\n    \"esdoc\": \"^1.1.0\",\r\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\r\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\r\n    \"esdoc-react-plugin\": \"^1.0.1\",\r\n    \"esdoc-standard-plugin\": \"^1.0.0\"\r\n  }\r\n}\r\n",
+    "longname": "C:\\Users\\Ibrahim\\WebstormProjects\\sayaradz\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

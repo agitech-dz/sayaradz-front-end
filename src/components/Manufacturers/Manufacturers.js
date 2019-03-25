@@ -15,6 +15,11 @@ const ManufacturerFilter = (props) => (
     </Filter>
 );
 
+/**
+ * Manufacturers List
+ *
+ * @returns { List } the list of manufacturers
+ */
 export const ManufacturerList = props => (
     <List title={<ManufacturerTitle />} {...props} filters={<ManufacturerFilter />}>
         <Responsive
@@ -37,6 +42,11 @@ export const ManufacturerList = props => (
     </List>
 );
 
+/**
+ * Manufacturers edit form
+ *
+ * @returns { Edit } the edit form of a manufacturer
+ */
 export const ManufacturerEdit = props => (
     <Edit {...props}>
         <SimpleForm>
@@ -46,6 +56,11 @@ export const ManufacturerEdit = props => (
     </Edit>
 );
 
+/**
+ * Manufacturers create form
+ *
+ * @returns { Edit } the create form of a manufacturer
+ */
 export const ManufacturerCreate = props => (
     <Create {...props}>
         <SimpleForm>

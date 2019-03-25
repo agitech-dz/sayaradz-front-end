@@ -1,7 +1,3 @@
-/**
- * This is RestProvider.
- */
-
 import { stringify } from 'query-string';
 import {
     GET_LIST,

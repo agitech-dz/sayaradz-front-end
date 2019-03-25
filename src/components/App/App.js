@@ -23,6 +23,12 @@ const messages = {
 };
 const i18nProvider = locale => messages[locale];
 
+/**
+ * Admin page
+ *
+ * @returns { Admin } The admin page
+ * @constructor
+ */
 const App = () => (
     <Admin locale="fr" i18nProvider={i18nProvider}loginPage={MyLoginPage} dashboard={Dashboard} authProvider={AuthProvider} dataProvider={RestProvider}>
         <Resource name="admins//" options={{ label: 'Administrateurs' }} list={AdminList} icon={AdminIcon} />

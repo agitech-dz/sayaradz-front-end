@@ -1,10 +1,6 @@
 import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 
 /**
- * This is AuthProvider.
- */
-
-/**
  * Maps react-admin auth queries to my REST API
  *
  * @param {string} type - Auth type, e.g GET_LIST
