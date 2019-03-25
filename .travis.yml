@@ -5,8 +5,8 @@ cache:
   directories:
   - node_modules
 before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
 script:
 - npm install
 - npm test
@@ -19,4 +19,4 @@ deploy:
 notifications:
   email: false
   slack:
-    secure: wS/rakWlWCwRRZozPhUJt7vejz3xTd91yTw4hfwsiwt0lMvHDihcm9f00wLK+uJVI6lGytQ0U7aqkYTWnG778tCTpY2Mdp3CrAB6e2rhQ78+wHV+ouegQHbIwM0oeU/t4qR0pQSTYIZ2lTCtNNWsq3JYktceaYd53Co1zpJPgWUNA8meU3Rm6z2qzILb/O4o3a4seoIY5FAQDMCxPspW47DVvgU5O1qFlimmQDNuEdzIcbjY9U1bMuDOa0GIbgJhbMBKCOHOf7Z6Q0rt0cyJ0Ows/lNN3a7Mh1EznxfrJqUwAfFnTR/o86fInA3I2RQj2ROYYZL3GHe8Ymoh5nQPu6tzN9VFSDBglA5In4ewLBg1oDYxILlieQfViIsA1AmU8sUY7AdrzXcUauUCHqCVM6UqKMJuBvVN4BKCc+5168r/CxxlEvIJ531auzUty4VkxuhJwnqKobXrkT9EEQWYCVrmbEAO+tbH6Z6zBRn1wBtoI8svZBNyVNfnsbCKK4RNBmc9cDGm5/jaDUegeQLf/2CRKiNLLjg4WjbJw7Uz/YjJrM1r/9qyyBEX7lWrM5NIr7GB/75NkW3LZ62Hmdy1R5UMClhLadCwiYBJH280i8tQvG46UkScbsPh3mxalNB9/McC3WI6ROFiVbWXyk7ga9R5yMl9/Jgf/HzgXzT2tZY=
+    secure: TUOXVnueSshYgSL8D47Kr5zkSCDXg0C8rf9Eyp8bZC8bJ6sm/xEguCUfgZUObAAU5sAa+I1ZGgFw1RDOZunQDC7nvtd2XFCFPiPXUzdtqJ9DOGhU9mStGNNVVKCoQ/ga7BjEtf8F21Jo0BS+sy14i3bJYoQUpl9Z2QlVUbmtc6L/8yiKmFSTCZDOWOUuVg2ZsWpqMmouM/CwVHPrUCkknMRxno63MQtrUY4t+OALpcEXDSeeIYmshtF4Adsw6z0J/GHitcCOStpcBAz61fK19xNb6w3ofy8y3AVm3+Z0FaN3ZjjtapXKk0QsdiCxA5R42PSklF4cYjGtMAukqaonxVSIHEux0l3Rw7+r1M2oXwyAF23q+EHmGEqHmZiACQlgsCC80xrKzk2f2O7JkE4tuRv7uwniKkO00IVTZ9QetLYjLYiX+Zvbw1LeWJSTLZjIPEQViem+2OVE/51jAixP3+JipCClgQSjfIFV6L3j+93vA+SgEzID5XUOObD2d4bpnIoPx6XaLUM1tsPxfQvmTKPQ2jY84VPaL28bxMr/mCKBsxXi2Vvf0MqtFWV9DTZprhrHCD1LzlREZ1A59qa0RWitiGN7WVJCfAvz/UXe2qnFm+vfHt8tS+i/p6mT7fuPUSsyy3ZAhNt57HP+82F0KBkU4289atcbB6/nxErmkZ0=
