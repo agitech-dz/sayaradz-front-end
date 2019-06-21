@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff144a8c-fff5-48bb-81ee-af7a43c8cc31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/Colors.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/Colors.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/Model.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/Model.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/Options.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/Options.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/Version.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/Version.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/components/Admins/Admins.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/components/Admins/Admins.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/components/App/App.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/components/App/App.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/components/Dashboard/Dashboard.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/components/Dashboard/Dashboard.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/components/Manufacturers/Manufacturers.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/components/Manufacturers/Manufacturers.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/components/Users/Users.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/components/Users/Users.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/file stock.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/file stock.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/index.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/index.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/serviceWorker.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/serviceWorker.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/utils/AuthProvider.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/utils/AuthProvider.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/utils/RestProvider.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/file/src/utils/RestProvider.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/function/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/function/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/identifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/identifiers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/search_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script/search_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Admins/Admins.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Admins/Admins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/Colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/Model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/Options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/Version.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/file stock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/file tarifs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/newcars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UtilisateursFabricant/tarifs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/RestProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/RestProvider.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,38 +23,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+        <entry file="file://$PROJECT_DIR$/src/utils/RestProvider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="296">
+              <caret line="155" column="38" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#165#217#0" expanded="true" />
-                <element signature="e#545#595#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Manufacturers/Manufacturers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Admins/Admins.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Users/Users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="527">
+              <caret line="69" column="43" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="43" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#165#217#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -109,6 +82,7 @@
       <find>AuthProvider</find>
       <find>AuthPro</find>
       <find>admins//</find>
+      <find>d</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,10 +110,8 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/App/App.test.js" />
-        <option value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Manufacturers/Manufacturers.test.js" />
-        <option value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.test.js" />
         <option value="$PROJECT_DIR$/src/components/Users/Users.test.js" />
         <option value="$PROJECT_DIR$/.esdoc.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -149,15 +121,18 @@
         <option value="$PROJECT_DIR$/src/utils/AuthProvider.js" />
         <option value="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/App/App2.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/utils/RestProvider.js" />
+        <option value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.test.js" />
         <option value="$PROJECT_DIR$/src/components/Admins/Admins.js" />
+        <option value="$PROJECT_DIR$/src/components/App/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Admins/Admins.test.js" />
+        <option value="$PROJECT_DIR$/src/utils/RestProvider.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="62" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -194,14 +169,7 @@
               <item name="sayaradz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Admins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sayaradz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sayaradz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Manufacturers" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sayaradz" type="b2602c69:ProjectViewProjectNode" />
@@ -267,17 +235,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
-    <configuration name="Dashboard" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Admins">
+    <configuration name="Admins" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/Dashboard/Dashboard.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Admins/Admins.test.js" />
       <test-names>
-        <test-name value="Dashboard" />
+        <test-name value="Admins" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Admins.AdminList" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Admins/Admins.test.js" />
+      <test-names>
+        <test-name value="Admins" />
+        <test-name value="AdminList" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Admins.renders without crashing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Admins/Admins.test.js" />
+      <test-names>
+        <test-name value="Admins" />
+        <test-name value="renders without crashing" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -294,20 +290,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Manufacturers.ManufacturerList" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Manufacturers/Manufacturers.test.js" />
-      <test-names>
-        <test-name value="Manufacturers" />
-        <test-name value="ManufacturerList" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="Users" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -318,20 +300,6 @@
       <test-file value="$PROJECT_DIR$/src/components/Users/Users.test.js" />
       <test-names>
         <test-name value="Users" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Users.UserList" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Users/Users.test.js" />
-      <test-names>
-        <test-name value="Users" />
-        <test-name value="UserList" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -350,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Admins" />
+        <item itemvalue="Jest.Admins.AdminList" />
+        <item itemvalue="Jest.Admins.renders without crashing" />
         <item itemvalue="Jest.Manufacturers" />
         <item itemvalue="Jest.Users" />
-        <item itemvalue="Jest.Users.UserList" />
-        <item itemvalue="Jest.Dashboard" />
-        <item itemvalue="Jest.Manufacturers.ManufacturerList" />
       </list>
     </recent_temporary>
   </component>
@@ -376,44 +344,44 @@
       <workItem from="1553486526482" duration="3181000" />
       <workItem from="1553782205016" duration="90000" />
       <workItem from="1555467646685" duration="45000" />
-      <workItem from="1560964940920" duration="11627000" />
+      <workItem from="1560964940920" duration="16526000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Manufacturers - 2019.03.25 at 05h 42m 03s.xml">
-      <configuration name="Manufacturers" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 29m 20s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Manufacturers_ManufacturerList - 2019.03.25 at 05h 42m 23s.xml">
-      <configuration name="Manufacturers.ManufacturerList" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 29m 46s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Manufacturers - 2019.03.25 at 05h 42m 46s.xml">
-      <configuration name="Manufacturers" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 38m 00s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Dashboard - 2019.03.25 at 05h 44m 36s.xml">
-      <configuration name="Dashboard" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 38m 15s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Dashboard - 2019.03.25 at 05h 44m 56s.xml">
-      <configuration name="Dashboard" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 39m 46s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Users - 2019.03.25 at 05h 46m 25s.xml">
-      <configuration name="Users" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 40m 02s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Users_UserList - 2019.03.25 at 05h 49m 37s.xml">
-      <configuration name="Users.UserList" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 40m 27s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Users_UserList - 2019.03.25 at 05h 50m 22s.xml">
-      <configuration name="Users.UserList" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 40m 51s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Users - 2019.03.25 at 05h 51m 07s.xml">
-      <configuration name="Users" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 41m 10s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Manufacturers - 2019.03.25 at 05h 54m 10s.xml">
-      <configuration name="Manufacturers" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Admins - 2019.06.21 at 18h 42m 09s.xml">
+      <configuration name="Admins" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183677000" />
+    <option name="totallyTimeSpent" value="188576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,15 +402,15 @@
       <window_info id="Favorites" order="3" sideWeight="0.5027027" side_tool="true" weight="0.21279761" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2761438" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.890625" weight="0.2761438" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30882353" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.109375" side_tool="true" weight="0.2761438" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30882353" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,16 +421,16 @@
       <window_info id="npm" order="2" sideWeight="0.5027027" side_tool="true" weight="0.21279761" />
       <window_info id="Favorites" order="3" sideWeight="0.5027027" side_tool="true" weight="0.21279761" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27450982" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.890625" visible="true" weight="0.2761438" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21732026" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.109375" side_tool="true" visible="true" weight="0.2761438" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30882353" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -596,16 +564,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Users/Users.test.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Manufacturers/Manufacturers.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.esdoc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -647,16 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoginPage/LoginPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -670,23 +618,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -727,25 +658,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoginPage/background.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/AuthProvider.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -781,42 +695,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Users/Users.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        <state relative-caret-position="48">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/RestProvider.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Dashboard/Dashboard.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="132" column="28" lean-forward="true" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#165#217#0" expanded="true" />
-            <element signature="e#545#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Admins/Admins.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Manufacturers/Manufacturers.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Manufacturers/Manufacturers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="1139">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -825,8 +771,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Admins/Admins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="180">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/RestProvider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="155" column="38" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#165#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Users/Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="43" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
