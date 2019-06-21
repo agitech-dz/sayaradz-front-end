@@ -126,9 +126,9 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
-    "sayaradz/src/file stock.js~filestock",
-    "function/index.html#static-function-filestock",
-    "<span>filestock</span> <span class=\"search-result-import-path\">sayaradz/src/file stock.js</span>",
+    "sayaradz/src/file_stock.js~file_stock",
+    "function/index.html#static-function-file_stock",
+    "<span>file_stock</span> <span class=\"search-result-import-path\">sayaradz/src/file_stock.js</span>",
     "function"
   ],
   [
@@ -480,9 +480,9 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/file stock.js",
-    "file/src/file stock.js.html",
-    "src/file stock.js",
+    "src/file_stock.js",
+    "file/src/file_stock.js.html",
+    "src/file_stock.js",
     "file"
   ],
   [

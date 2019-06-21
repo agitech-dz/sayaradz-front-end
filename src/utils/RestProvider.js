@@ -116,9 +116,16 @@ export default (type, resource, params) => {
     return fetch(url, options)
         .then(res => res.json())
         .then(json => {
+            console.log(json);
             switch (type) {
                 case GET_LIST:
                 case GET_MANY_REFERENCE:
+                    if (json.results === undefined) {
+                        return {
+                            data: json,
+                            total: parseInt(json.length)
+                        }
+                    }
                     return {
                         data: json.results,
                         total: parseInt(json.count),
