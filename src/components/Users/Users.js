@@ -1,12 +1,16 @@
 import React from 'react';
-import { List, Responsive, SimpleList, Datagrid, TextField, EmailField } from 'react-admin';
+import { List, Responsive, SimpleList, Datagrid, TextField, EmailField, EditButton, BooleanInput, NumberInput } from 'react-admin';
+import { Edit, SimpleForm, TextInput } from 'react-admin';
+import { Create } from 'react-admin';
+import { DeleteButton } from 'react-admin';
 
-const UsersTitle = () => {
-    return <span>Utilisateurs fabricants</span>;
-};
-
+/**
+ * Manufacturers users list
+ *
+ * @returns { List } the list of manufacturers users
+ */
 export const UserList = props => (
-    <List title={<UsersTitle />} {...props}>
+    <List title='Liste des utilisateurs fabricants' {...props}>
         <Responsive
             small={
                 <SimpleList
@@ -26,8 +30,44 @@ export const UserList = props => (
                     <TextField label="Fabricants" source="manufacturer" />
                     <EmailField label="Mail" source="mail" />
                     <TextField label="Etat" source="is_active" />
+                    <EditButton/>
+                    <DeleteButton/>
                 </Datagrid>
             }
         />
     </List>
+);
+
+/**
+ * Manufacturer user edit form
+ *
+ * @returns { Edit } the edit form of a Manufacturer user
+ */
+export const UserEdit = props => (
+    <Edit title='Modifier un utilisateur fabricant' {...props}>
+        <SimpleForm>
+            <TextInput source="name" />
+            <TextInput source="nationality" />
+        </SimpleForm>
+    </Edit>
+);
+
+/**
+ * Manufacturer user create form
+ *
+ * @returns { Create } the create form of a Manufacturer user
+ */
+export const UserCreate = props => (
+    <Create title='Créer un utilisateur fabricant' {...props}>
+        <SimpleForm>
+            <TextInput source="username" />
+            <TextInput source="first_name" />
+            <TextInput source="last_name" />
+            <TextInput source="address" />
+            <NumberInput source="telephone" />
+            <TextInput source="email" />
+            <BooleanInput source="is_blocked" />
+            <TextInput source="manufacturer" />
+        </SimpleForm>
+    </Create>
 );

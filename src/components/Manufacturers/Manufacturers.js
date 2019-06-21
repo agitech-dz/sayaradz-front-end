@@ -5,10 +5,6 @@ import { Edit, SimpleForm, TextInput } from 'react-admin';
 import { Create } from 'react-admin';
 import { DeleteButton } from 'react-admin';
 
-const ManufacturerTitle = () => {
-    return <span>Fabricants</span>;
-};
-
 const ManufacturerFilter = (props) => (
     <Filter {...props}>
         <TextInput label="Rechercher" source="q" alwaysOn />
@@ -16,12 +12,12 @@ const ManufacturerFilter = (props) => (
 );
 
 /**
- * Manufacturers List
+ * Manufacturers list
  *
  * @returns { List } the list of manufacturers
  */
 export const ManufacturerList = props => (
-    <List title={<ManufacturerTitle />} {...props} filters={<ManufacturerFilter />}>
+    <List title='Liste des fabricants' {...props} filters={<ManufacturerFilter />}>
         <Responsive
             small={
                 <SimpleList
@@ -48,7 +44,7 @@ export const ManufacturerList = props => (
  * @returns { Edit } the edit form of a manufacturer
  */
 export const ManufacturerEdit = props => (
-    <Edit {...props}>
+    <Edit title='Modifier un fabricant' {...props}>
         <SimpleForm>
             <TextInput source="name" />
             <TextInput source="nationality" />
@@ -59,10 +55,10 @@ export const ManufacturerEdit = props => (
 /**
  * Manufacturers create form
  *
- * @returns { Edit } the create form of a manufacturer
+ * @returns { Create } the create form of a manufacturer
  */
 export const ManufacturerCreate = props => (
-    <Create {...props}>
+    <Create title='Créer un fabricant' {...props}>
         <SimpleForm>
             <TextInput source="name" />
             <TextInput source="nationality" />
