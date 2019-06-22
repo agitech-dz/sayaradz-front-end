@@ -1,0 +1,318 @@
+[33mcommit 38f4efa49fa5fa8db29a23f6af3ba67c395105f0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Fri Jun 21 19:09:07 2019 +0100
+
+    test: admins tests and documentation added
+
+[33mcommit f52807b01764c31a9ba1f00c9766ce279536ffe4[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Fri Jun 21 17:12:41 2019 +0100
+
+    feat: admins list and delete unused files for futur integration
+
+[33mcommit f3d9c6766f86b897937ef91757515dcc0a999984[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Fri Jun 21 15:51:52 2019 +0100
+
+    chore: update .gitignore
+
+[33mcommit fa76d1a7f443d7315eecf2e33381d1d7cdaee8fd[m
+Merge: 7b4a77a d8b90a1
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Fri Jun 21 15:44:50 2019 +0100
+
+    Merge branch 'master' of https://github.com/agitech-dz/sayaradz-front-end
+
+[33mcommit 7b4a77aca1382d403a669c62dea5a2c41b39c43c[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Fri Jun 21 15:44:31 2019 +0100
+
+    fix: login page and update react-admin
+
+[33mcommit d8b90a16639ea4350edb7241516a7277a78b2483[m
+Author: sylia <fs_berrichi@esi.dz>
+Date:   Fri Jun 21 15:06:46 2019 +0200
+
+    page App2.js user manufacturer added
+
+[33mcommit b5c6bbd3474ce3c5087f18af6d6e37060ebd7d58[m
+Author: sylia <fs_berrichi@esi.dz>
+Date:   Fri Jun 21 14:58:02 2019 +0200
+
+     Models, colors, versions, options manage added
+
+[33mcommit 626a75f9cc06ca3d2ca858db2202eddce9e6bbe8[m[33m ([m[1;31morigin/branch[m[33m)[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Fri Jun 21 12:53:51 2019 +0200
+
+    Delete file stock.js
+
+[33mcommit c506f2eaa8800ab4c8dd63a6221dd3aac7a25a52[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Fri Jun 21 12:51:53 2019 +0200
+
+    Delete Version.js
+
+[33mcommit a58db2451ef0555b16490bf88cd8948ab64d4219[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Fri Jun 21 12:40:17 2019 +0200
+
+    Delete Options.js
+
+[33mcommit 4f89edd1b064b4f492299515464896d98bc29cfd[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Fri Jun 21 12:37:20 2019 +0200
+
+    Delete Model.js
+
+[33mcommit 0ca5d1f8bd1a471f5db08460a9d98bce9945adcb[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Fri Jun 21 12:35:18 2019 +0200
+
+    Delete Colors.js
+
+[33mcommit 27c386b7bfe5ef7d7f5dad16209819dcd4ef86a6[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Fri Jun 21 12:33:08 2019 +0200
+
+    Add files via upload
+    
+    colors manage added
+
+[33mcommit 44eea2d902f0f07ae682d169771d0bfe4a6070e6[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Mon Mar 25 09:06:17 2019 +0100
+
+    docs: manufacturers docs added
+
+[33mcommit a94025f55e84a1e53659333bc00f82d2154b7813[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Mon Mar 25 05:57:04 2019 +0100
+
+    test: manufacturers tests added
+
+[33mcommit c39e57265a35e1ac8bf4049603c94e005d1f0027[m
+Merge: dbc5a43 a267ed1
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Mon Mar 25 05:10:59 2019 +0100
+
+    Merge branch 'master' of https://github.com/agitech-dz/sayaradz-front-end
+
+[33mcommit a267ed16d7e06e65f74518bdf07f737decd6e44b[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sat Mar 23 17:38:19 2019 +0100
+
+    chore: update travis file
+
+[33mcommit 11ed2e9faa6c3aec8ef90e3ba2382fc74b5377e1[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sat Mar 23 15:57:19 2019 +0100
+
+    chore: undo package.json changes
+
+[33mcommit 16da5de3f770f7fbfa899e8da8fea2aa775d2731[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sat Mar 23 15:48:37 2019 +0100
+
+    chore: update package.json npm start
+
+[33mcommit 9552743cce0998807fea852f8c59d9b3d5a55677[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Sat Mar 23 12:47:41 2019 +0100
+
+    Add colors manage
+
+[33mcommit 2b74c18654d338cad5984d4621f4d911335e0637[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Sat Mar 23 12:46:58 2019 +0100
+
+    Add option manage
+
+[33mcommit 52d9bc64270441212c3c5c2ea794e315c1a868b6[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Sat Mar 23 12:46:23 2019 +0100
+
+    Add version manage
+
+[33mcommit cd5f5e81b7d1922be176088907d6df4e4cc78cfc[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Sat Mar 23 12:45:48 2019 +0100
+
+    Add file stock
+
+[33mcommit aab7a605ce71c6da1e9f9f8f8a31f473d19754eb[m
+Author: SihamSila <32821211+SihamSila@users.noreply.github.com>
+Date:   Sat Mar 23 12:45:02 2019 +0100
+
+    Add model manage
+
+[33mcommit dbc5a43d6eb6164c1b17d8c85d2a2aa891f7bf3d[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sat Mar 23 05:02:43 2019 +0100
+
+    refactor: refactor app structure
+
+[33mcommit 91ef6e594b182610c55414524a5eb18937159b9c[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sat Mar 23 01:25:27 2019 +0100
+
+    style: change language to french
+
+[33mcommit b843776150da672f52f494c960d9cf57eee78c83[m
+Merge: a637072 fdafedf
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sat Mar 23 00:54:55 2019 +0100
+
+    Merge branch 'master' of https://github.com/agitech-dz/sayaradz-front-end
+
+[33mcommit a637072b54a1b7386c70bd2a8237aec119dba20a[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sat Mar 23 00:54:43 2019 +0100
+
+    chore: adding .env file which contains the api url
+
+[33mcommit fdafedf977e6bcb044b8ce2e3b7f7d26d39f395e[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Fri Mar 22 13:00:27 2019 +0100
+
+    chore: update travis file
+
+[33mcommit 4ec5acd3da049effc93376b59e73a2f39d67b560[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Fri Mar 22 12:55:47 2019 +0100
+
+    chore: update travis file
+
+[33mcommit edb9dcf6cd7de0508796246b0c895710c7e088c6[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Mar 3 15:00:33 2019 +0100
+
+    feat: delete button added
+
+[33mcommit 4b504a7599a3d019741177ee829773e3add105ad[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Mar 3 14:40:19 2019 +0100
+
+    feat: separate filter urls
+
+[33mcommit 01ecc513aa681e691d1c30f34280a3e553a242ee[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Mar 3 13:55:04 2019 +0100
+
+    feat: new login background
+
+[33mcommit 30fe417d315bd78d1fe41f7af4fd8b81c10b6475[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Mar 3 13:45:24 2019 +0100
+
+    docs: AuthProvider doc added
+
+[33mcommit 4e6958142e092879b3f255ad07902e950f8414c3[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Mar 3 04:30:34 2019 +0100
+
+    test: refactor
+
+[33mcommit 94b48115c0f2c76d32734d1e66255afb1c8acecc[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Mar 3 02:42:28 2019 +0100
+
+    feat: update and delete fabricant added
+
+[33mcommit f3e2d51ce0e49984f47408fcb186038468cb5e51[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sat Mar 2 17:18:02 2019 +0100
+
+    feat: pagination, auth with api added
+
+[33mcommit 0895967263853cda74fecc15aa15a2a5bd6d273c[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Fri Mar 1 21:21:22 2019 +0100
+
+    feat: Custom RestProvider added that suit the api response format
+
+[33mcommit 8950e54573bc722bc24f4226e29e130821e38e3a[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Feb 24 22:51:28 2019 +0100
+
+    fix: heroku script
+
+[33mcommit 94e7af23a2c3bbd4eba761df556f3e1ce7ff897d[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Feb 24 22:43:38 2019 +0100
+
+    fix: format json error fixed
+
+[33mcommit 729b75da291f6653340f97ea54bdb9e05084935b[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Feb 24 22:40:59 2019 +0100
+
+    refactor: remove unusued packages
+
+[33mcommit aa9e1ab19d97cabb223af56bb79990e33a5d10af[m[33m ([m[1;31morigin/staging[m[33m, [m[1;31morigin/production[m[33m)[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sun Feb 24 21:39:11 2019 +0100
+
+    chore: add app name to travis file
+
+[33mcommit 0cb97dde1b2ba9ffb4e8b34dbb7a6200adcf00e7[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sun Feb 24 21:33:57 2019 +0100
+
+    fix: unused variables in app.js
+
+[33mcommit 1f0707a598881ba42247d92bb9ec678322db47a8[m
+Merge: 4e4c218 c48c705
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sun Feb 24 21:28:35 2019 +0100
+
+    Merge branch 'master' of https://github.com/agitech-dz/sayaradz-front-end
+
+[33mcommit 4e4c218c936b6eec73ab6ef8e15e4192eae5c7b9[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sun Feb 24 21:23:16 2019 +0100
+
+    chore: add the heroku tpken to travis file
+
+[33mcommit c48c7058afdd362f8f1979b759db4cdb69130973[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Feb 24 16:54:49 2019 +0100
+
+    config: workspace modified
+
+[33mcommit 6d31ddcfd0372a3b872426c64205ddc1388b3de1[m
+Merge: 8ead744 71d0cc3
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Feb 24 16:53:06 2019 +0100
+
+    Merge branch 'master' of https://github.com/agitech-dz/sayaradz-front-end
+
+[33mcommit 8ead744f71497206eb2c7e15a75962dd2d56d1aa[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sun Feb 24 16:48:56 2019 +0100
+
+    feat: hiroku deployement scripts added
+
+[33mcommit 71d0cc33c8ccc8093da4b7a13d8fbc75d0c58105[m
+Author: mohamed-amine-guerras <fm_guerras@esi.dz>
+Date:   Sun Feb 24 15:48:54 2019 +0100
+
+    chore: add travis file
+
+[33mcommit 0caccdf03260cc8f4651f6f40526de98b72a0ded[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Sat Feb 23 03:29:45 2019 +0100
+
+    feat: admins UI added (admins, manufacturers and users) + login page
+
+[33mcommit beb355dc807a52b527a39ab4356767c02a97386c[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Fri Feb 22 22:14:57 2019 +0100
+
+    feat: app env setup added
+
+[33mcommit c60d4e43f4b18e9f90eddce6c90243861e4ef73b[m
+Author: iahmedbacha <fi_ahmed_bacha@esi.dz>
+Date:   Tue Feb 19 17:21:50 2019 +0100
+
+    Initial commit from Create React App

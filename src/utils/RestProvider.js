@@ -47,35 +47,18 @@ export default (type, resource, params) => {
                 ordering: ordering,
             };
             url = `${apiUrl}/${resource}?${stringify(query)}`;
-            console.log(url);
             break;
         }
         case GET_ONE:
-            if (resource === 'admins/') {
-                url = `${apiUrl}/${resource}${params.id}`;
-            }
-            else {
-                url = `${apiUrl}/${resource}/${params.id}`;
-            }
+            url = `${apiUrl}/${resource}/${params.id}`;
             break;
         case CREATE:
-            if (resource === 'admins/') {
-                url = `${apiUrl}/${resource}`;
-            }
-            else {
-                url = `${apiUrl}/${resource}/`;
-            }
+            url = `${apiUrl}/${resource}/`;
             options.method = 'POST';
-            console.log(JSON.stringify(params.data));
             options.body = JSON.stringify(params.data);
             break;
         case UPDATE:
-            if (resource === 'admins/') {
-                url = `${apiUrl}/${resource}${params.id}/`;
-            }
-            else {
-                url = `${apiUrl}/${resource}/${params.id}/`;
-            }
+            url = `${apiUrl}/${resource}/${params.id}/`;
             options.method = 'PUT';
             options.body = JSON.stringify(params.data);
             break;
@@ -89,12 +72,7 @@ export default (type, resource, params) => {
             break;
         }
         case DELETE:
-            if (resource === 'admins/') {
-                url = `${apiUrl}/${resource}${params.id}/`;
-            }
-            else {
-                url = `${apiUrl}/${resource}/${params.id}/`;
-            }
+            url = `${apiUrl}/${resource}/${params.id}/`;
             options.method = 'DELETE';
             break;
         case DELETE_MANY: {
@@ -132,6 +110,10 @@ export default (type, resource, params) => {
         default:
             throw new Error(`Unsupported Data Provider request type ${type}`);
     }
+    console.log(type);
+    console.log(resource);
+    console.log(params);
+    console.log(url);
 
     return fetch(url, options)
         .then(res => res.json())
@@ -153,7 +135,6 @@ export default (type, resource, params) => {
                 case CREATE:
                     return { data: { ...json, id: json.id } };
                 default:
-                    console.log(json);
                     return { data: json };
             }
         });

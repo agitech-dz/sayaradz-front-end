@@ -1,5 +1,6 @@
 import React from 'react';
-import { List, Responsive, SimpleList, Datagrid, TextField, EmailField } from 'react-admin';
+import { EditButton, DeleteButton } from 'react-admin';
+import { List, Responsive, SimpleList, Datagrid, TextField, EmailField, BooleanField } from 'react-admin';
 import { Edit, SimpleForm, TextInput, BooleanInput } from 'react-admin';
 import { Create } from 'react-admin';
 
@@ -24,7 +25,9 @@ export const AdminList = props => (
                     <EmailField source="email" />
                     <TextField source="first_name" />
                     <TextField source="last_name" />
-                    <TextField source="is_superuser" />
+                    <BooleanField source="is_superuser" />
+                    <EditButton/>
+                    <DeleteButton/>
                 </Datagrid>
             }
         />

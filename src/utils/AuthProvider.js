@@ -10,14 +10,11 @@ import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 export default (type, params) => {
     if (type === AUTH_LOGIN) {
         const { username, password } = params;
-        console.log("username: " + username);
-        console.log("password: " + password);
         const request = new Request(process.env.REACT_APP_API_URL+'/admin/login/', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
             headers: new Headers({ 'Content-Type': 'application/json' }),
         });
-        console.log("request.body: ");
         console.log(JSON.stringify({ username, password }));
         return fetch(request)
             .then(response => {
