@@ -1,32 +1,49 @@
 import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 
+/**
+ * This is AuthProvider.
+ */
+
+/**
+ * Maps react-admin auth queries to my REST API
+ *
+ * @param {string} type - Auth type, e.g GET_LIST
+ * @param {Object} params - Auth parameters. Depends on the auth type
+ * @returns {Promise} the Promise for an auth response
+ */
 export default (type, params) => {
-    // called when the user attempts to log in
     if (type === AUTH_LOGIN) {
-        const { username } = params;
-        localStorage.setItem('username', username);
-        // accept all username/password combinations
-        return Promise.resolve();
+        const { username, password } = params;
+        const request = new Request('https://sayaradz-back-end.herokuapp.com/api/auth/login/', {
+            method: 'POST',
+            body: JSON.stringify({ username, password }),
+            headers: new Headers({ 'Content-Type': 'application/json' }),
+        })
+        return fetch(request)
+            .then(response => {
+                if (response.status < 200 || response.status >= 300) {
+                    throw new Error(response.statusText);
+                }
+                return response.json();
+            })
+            .then(({ auth_token }) => {
+                localStorage.setItem('token', auth_token);
+            });
     }
-    // called when the user clicks on the logout button
     if (type === AUTH_LOGOUT) {
-        localStorage.removeItem('username');
+        localStorage.removeItem('token');
         return Promise.resolve();
     }
-    // called when the API returns an error
     if (type === AUTH_ERROR) {
-        const { status } = params;
+        const status  = params.status;
         if (status === 401 || status === 403) {
-            localStorage.removeItem('username');
+            localStorage.removeItem('token');
             return Promise.reject();
         }
         return Promise.resolve();
     }
-    // called when the user navigates to a new location
     if (type === AUTH_CHECK) {
-        return localStorage.getItem('username')
-            ? Promise.resolve()
-            : Promise.reject();
+        return localStorage.getItem('token') ? Promise.resolve() : Promise.reject();
     }
     return Promise.reject('Unknown method');
-};
+}

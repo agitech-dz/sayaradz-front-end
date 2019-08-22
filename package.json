@@ -4,13 +4,24 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "axios-rest-client": "^0.1.11",
+    "csv": "^5.1.1",
+    "material-ui-dropzone": "^2.4.0",
     "ra-data-json-server": "^2.7.1",
     "ra-data-simple-rest": "^2.7.2",
     "ra-jsonapi-client": "^0.4.6",
+    "ra-language-french": "^2.9.3",
     "react": "^16.8.2",
     "react-admin": "^2.7.1",
+    "react-csv-reader": "^1.2.2",
     "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
+    "react-dropzone": "^10.1.5",
+    "react-file-reader": "^1.1.4",
+    "react-fileupload-progress": "^0.5.0",
+    "react-notifications": "^1.4.3",
+    "react-scripts": "2.1.5",
+    "react-toastify": "^5.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +38,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "jest": "^24.9.0"
+  }
 }
