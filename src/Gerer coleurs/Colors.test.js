@@ -3,29 +3,29 @@ import { TestContext } from 'react-admin';
 import { mount } from 'enzyme';
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import { ManufacturerEdit, ManufacturerCreate } from './Manufacturers';
+import {  ColorsEdit, ColorsCreate } from './Colors.js';
 Enzyme.configure({ adapter: new Adapter() });
 
-describe('Manufacturers', () => {
+describe('Colors', () => {
     const defaultProps = {
-        basePath: '/manufacturers',
-        id: '1',
-        resource: 'manufacturers',
+        basePath: '/Colors',
+        id: 'c1',
+        resource: 'colors',
         location: {},
         match: {},
     };
     // Tests
-    it('ManufacturerEdit', () => {
+    it('ColorsEdit', () => {
         mount(
             <TestContext>
-                <ManufacturerEdit {...defaultProps} />
+                <ColorsEdit {...defaultProps} />
             </TestContext>
         );
     });
-    it('ManufacturerCreate', () => {
+    it('ColorsCreate', () => {
         mount(
             <TestContext>
-                <ManufacturerEdit {...defaultProps} />
+                <ColorsEdit {...defaultProps} />
             </TestContext>
         );
     });

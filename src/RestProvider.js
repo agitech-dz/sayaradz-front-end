@@ -1,3 +1,5 @@
+
+
 import { stringify } from 'query-string';
 import {
     GET_LIST,
@@ -11,7 +13,7 @@ import {
     GET_MANY_REFERENCE,
 } from 'react-admin';
 
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = "https://sayaradz-back-end.herokuapp.com/api";
 
 /**
  * Maps react-admin queries to my REST API
@@ -114,28 +116,61 @@ export default (type, resource, params) => {
     console.log(resource);
     console.log(params);
     console.log(url);
-
     return fetch(url, options)
-        .then(res => res.json())
-        .then(json => {
-            console.log(json);
-            switch (type) {
-                case GET_LIST:
-                case GET_MANY_REFERENCE:
-                    if (json.results === undefined) {
-                        return {
-                            data: json,
-                            total: parseInt(json.length)
-                        }
-                    }
+    .then(res => res.json())
+    .then(json => {
+        console.log(json);
+        switch (type) {
+            case GET_LIST:
+            case GET_MANY_REFERENCE:
+                if (json.results === undefined) {
                     return {
-                        data: json.results,
-                        total: parseInt(json.count),
-                    };
+                        data: json,
+                        total: parseInt(json.length)
+                    }
+                }
+                return {
+                    data: json.results,
+                    total: parseInt(json.count),
+                };
                 case CREATE:
-                    return { data: { ...json, id: json.id } };
-                default:
-                    return { data: json };
+                return { data: { ...json, id: json.id } };
+            default:
+                return { data: json };
+               
             }
         });
 };
+
+
+/*
+return fetch(url, options)
+.then(res => res.json())
+.then(json => {
+    console.log(json);
+    switch (type) {
+        case GET_LIST:
+        case GET_MANY_REFERENCE:
+            console.log('here')
+            if (json.results === undefined) {
+                for(var i = 0; i< json.length; i++) {
+                    console.log("here1")
+                    json[i].id = i
+                }
+                console.log(json)
+                return {
+                    data: json,
+                    total: parseInt(json.length)
+                }
+            }
+            for(var j = 0; j< json.results.length; j++) {
+                console.log("here2")
+                json.results[j].id = j
+            }
+            console.log(json.results[0])
+            
+            console.log(json)
+            return {
+                data: json.results,
+                total: parseInt(json.count),
+            };*/

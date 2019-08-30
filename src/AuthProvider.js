@@ -1,6 +1,10 @@
 import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 
 /**
+ * This is AuthProvider.
+ */
+
+/**
  * Maps react-admin auth queries to my REST API
  *
  * @param {string} type - Auth type, e.g GET_LIST
@@ -10,12 +14,11 @@ import { AUTH_LOGIN, AUTH_LOGOUT, AUTH_ERROR, AUTH_CHECK } from 'react-admin';
 export default (type, params) => {
     if (type === AUTH_LOGIN) {
         const { username, password } = params;
-        const request = new Request(process.env.REACT_APP_API_URL+'/admin/login/', {
+        const request = new Request('https://sayaradz-back-end.herokuapp.com/api/auth/login/', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
             headers: new Headers({ 'Content-Type': 'application/json' }),
-        });
-        console.log(JSON.stringify({ username, password }));
+        })
         return fetch(request)
             .then(response => {
                 if (response.status < 200 || response.status >= 300) {

@@ -3,29 +3,29 @@ import { TestContext } from 'react-admin';
 import { mount } from 'enzyme';
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import { AdminEdit, AdminCreate } from './Admins';
+import {  ModelEdit, ModelCreate } from './Model.js';
 Enzyme.configure({ adapter: new Adapter() });
 
-describe('Admins', () => {
+describe('Model', () => {
     const defaultProps = {
-        basePath: '/admins',
-        id: '1',
-        resource: 'admins//',
+        basePath: '/Model',
+        id: '1256',
+        resource: 'models',
         location: {},
         match: {},
     };
     // Tests
-    it('AdminList', () => {
+    it('ModelEdit', () => {
         mount(
             <TestContext>
-                <AdminEdit {...defaultProps}/>
+                <ModelEdit {...defaultProps} />
             </TestContext>
         );
     });
-    it('ManufacturerCreate', () => {
+    it('ModelCreate', () => {
         mount(
             <TestContext>
-                <AdminCreate {...defaultProps} />
+                <ModelEdit {...defaultProps} />
             </TestContext>
         );
     });

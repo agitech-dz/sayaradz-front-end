@@ -2,11 +2,10 @@ import React from 'react';
 import { Filter } from 'react-admin';
 import { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'react-admin';
 import { Edit, SimpleForm, TextInput } from 'react-admin';
-import { Create } from 'react-admin';
 import { DeleteButton } from 'react-admin';
 
 const TarifsTitle = () => {
-    return <span>Modèles</span>;
+    return <span>Tarifs</span>;
 };
 
 const TarifsFilter = (props) => (
@@ -20,18 +19,19 @@ export const TarifsList = props => (
         <Responsive
             small={
                 <SimpleList
-                    primaryText={record => record.code}
-                    secondaryText={record => `${record.type}`}
+                    primaryText={record => record.id}
+                 
                    
                 />
             }
             medium={
                 <Datagrid>
-                   <TextField label="Type" source="type"/>
+                  
+                    <TextField label="Id" source="id"/>
                     <TextField label="Code" source="code"/>
                     <TextField label="Date début" source="dateBegin"/>
                     <TextField label="Date fin" source="dateEnd"/>
-                    <TextField label="Prix" source="price"/>
+                    <TextField label="Prix en DA" source="price"/>
                     <EditButton/>
                     <DeleteButton/>
                 </Datagrid>
@@ -43,24 +43,14 @@ export const TarifsList = props => (
 export const TarifsEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-        <TextInput source="type" />
-            <TextInput source="code" />
-            <TextInput source="dateBegin" />
-            <TextInput source="dateEnd" />
-            <TextInput source="price" />
+        <TextField source="Id" />
+            <TextField source="code" />
+            <TextField label="Date début" source="dateBegin" />
+            <TextField  label="Date fin" source="dateEnd" />
+            <TextInput  label="Prix en DA" source="price" />
         </SimpleForm>
     </Edit>
 );
 
-export const TarifsCreate = props => (
-    <Create {...props}>
-        <SimpleForm>
-        <TextInput source="type" />
-            <TextInput source="code" />
-            <TextInput source="dateBegin" />
-            <TextInput source="dateEnd" />
-            <TextInput source="price" />
-        </SimpleForm>
-    </Create>
-);
+
 

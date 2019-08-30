@@ -5,31 +5,34 @@ import { Edit, SimpleForm, TextInput } from 'react-admin';
 import { Create } from 'react-admin';
 import { DeleteButton } from 'react-admin';
 
-const OptionsTitle = () => {
-    return <span>Options</span>;
+
+const ModelTitle = () => {
+    return <span>Modèles</span>;
 };
 
-const OptionsFilter = (props) => (
+const ModelFilter = (props) => (
     <Filter {...props}>
         <TextInput label="Search" source="q" alwaysOn />
+
     </Filter>
 );
 
-export const OptionsList = props => (
-    <List title={<OptionsTitle/>} {...props} filters={<OptionsFilter />}>
+export const ModelList = props => (
+    <List title={<ModelTitle />} {...props} filters={<ModelFilter />}>
         <Responsive
             small={
                 <SimpleList
-                    primaryText={record => record.code}
+                    primaryText={record => record.id}
                     secondaryText={record => `${record.name}`}
-                    tertiaryText={record => `${record.model}`}
                 />
             }
             medium={
-                <Datagrid>
-                    <TextField label="Code" source="code"/>
+                <Datagrid rowClick="edit">
+                
+                    <TextField label="Code" source="id"/>
                     <TextField label="Nom" source="name"/>
-                    <TextField label="Modèle" source="model"/>
+                   
+                   
                     <EditButton/>
                     <DeleteButton/>
                 </Datagrid>
@@ -38,22 +41,23 @@ export const OptionsList = props => (
     </List>
 );
 
-export const OptionsEdit = props => (
+export const ModelEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            <TextInput source="code" />
-            <TextInput source="name" />
-            <TextInput source="model" />
+            <TextField label ="Code" source="id" />
+            <TextInput label="Nom" source="name" />
+            <TextField label="Utilisateur fabricant" source="manufacturer" />
         </SimpleForm>
     </Edit>
 );
 
-export const OptionsCreate = props => (
+export const ModelCreate = props => (
     <Create {...props}>
         <SimpleForm>
-            <TextInput source="code" />
-            <TextInput source="name" />
-            <TextInput source="model" />
+            <TextInput label =" Code" source="id" />
+            <TextInput label="Nom" source="name" />
+            <TextInput  label="Utilisateur fabricant" source="manufacturer" />
         </SimpleForm>
     </Create>
 );
+

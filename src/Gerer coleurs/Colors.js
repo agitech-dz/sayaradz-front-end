@@ -20,16 +20,17 @@ export const ColorsList = props => (
         <Responsive
             small={
                 <SimpleList
-                    primaryText={record => record.code}
+                    primaryText={record => record.id}
                     secondaryText={record => `${record.name}`}
-                    tertiaryText={record => `${record.model}`}
+                   
                 />
             }
             medium={
-                <Datagrid>
-                    <TextField label="Code" source="code"/>
+                <Datagrid rowClick="edit">
+                    <TextField label="Code" source="id"/>
                     <TextField label="Nom" source="name"/>
                     <TextField label="Model" source="model"/>
+                    <TextField label="Prix de la couleur DA" source="tarif_price"/>
                     <EditButton/>
                     <DeleteButton/>
                 </Datagrid>
@@ -41,7 +42,7 @@ export const ColorsList = props => (
 export const ColorsEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            <TextInput source="code" />
+            <TextField label ="Code" source="id" />
             <TextInput source="name" />
             <TextInput source="model" />
         </SimpleForm>
@@ -51,7 +52,7 @@ export const ColorsEdit = props => (
 export const ColorsCreate = props => (
     <Create {...props}>
         <SimpleForm>
-            <TextInput source="code" />
+            <TextInput  label ="Code" source="id" />
             <TextInput source="name" />
             <TextInput source="model" />
         </SimpleForm>
