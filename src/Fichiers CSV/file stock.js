@@ -21,7 +21,7 @@ export const handleForce = data   => {
              const options =data[i][4];
              const seller = data[i][5];
             
-             const stock = {  "numChassis" :numChassis,"color":colors , "version": version, "options": options , "seller": seller};
+             const stock = {  "id" :numChassis,"color":colors , "version": version, "options": options , "seller": seller};
             stockList.push(stock);
            
         

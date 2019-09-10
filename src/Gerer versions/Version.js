@@ -5,14 +5,14 @@ import { Edit, SimpleForm, TextInput } from 'react-admin';
 import { Create } from 'react-admin';
 import { DeleteButton } from 'react-admin';
 import { ChipField, SelectArrayInput} from 'react-admin';
-/*SingleFieldList,ReferenceArrayField, ReferenceArrayInput,,ArrayField,*/ 
+
 const VersionTitle = () => {
     return <span>Versions</span>;
 };
 
 const VersionFilter = (props) => (
     <Filter {...props}>
-        <TextInput label="Search" source="q" alwaysOn />
+        
     </Filter>
 );
 

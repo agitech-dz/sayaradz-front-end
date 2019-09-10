@@ -11,7 +11,7 @@ const ColorsTitle = () => {
 
 const ColorsFilter = (props) => (
     <Filter {...props}>
-        <TextInput label="Search" source="q" alwaysOn />
+       
     </Filter>
 );
 
