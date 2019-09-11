@@ -10,7 +10,7 @@ const TarifsTitle = () => {
 
 const TarifsFilter = (props) => (
     <Filter {...props}>
-        <TextInput label="Search" source="q" alwaysOn />
+       
     </Filter>
 );
 
@@ -27,7 +27,7 @@ export const TarifsList = props => (
             medium={
                 <Datagrid>
                   
-                    <TextField label="Id" source="id"/>
+                   
                     <TextField label="Code" source="code"/>
                     <TextField label="Date début" source="dateBegin"/>
                     <TextField label="Date fin" source="dateEnd"/>
@@ -43,7 +43,7 @@ export const TarifsList = props => (
 export const TarifsEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-        <TextField source="Id" />
+      
             <TextField source="code" />
             <TextField label="Date début" source="dateBegin" />
             <TextField  label="Date fin" source="dateEnd" />
@@ -51,6 +51,3 @@ export const TarifsEdit = props => (
         </SimpleForm>
     </Edit>
 );
-
-
-
