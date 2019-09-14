@@ -18,7 +18,7 @@ import { ModelList, ModelEdit, ModelCreate } from './Gerer Modeles/Model.js';
 import { VersionList, VersionEdit, VersionCreate } from './Gerer versions/Version.js';
 import { OptionsList, OptionsEdit, OptionsCreate } from './Gerer Options/Options.js';
 import { ColorsList, ColorsEdit, ColorsCreate } from './Gerer coleurs/Colors.js';
-import { NewcarsList } from './newcars.js';
+import { NewcarsList , NewcarsCreate, NewcarsEdit} from './newcars.js';
 import { CommandList,CommandEdit } from './Commande/Command.js';
 // Icons
 import ManufacturerIcon from '@material-ui/icons/DirectionsCar';
@@ -56,7 +56,7 @@ const App = () => (
      
      
      <Resource  name ="stock" options={{ label: 'fichier stock' }} list={filestock} icon={FileIcon}  /> 
-     <Resource  name="post-newcars-stock" options={{ label: 'Voitures en stock' }} list={NewcarsList} icon={StockIcon} />       
+     <Resource  name="post-newcars-stock" options={{ label: 'Voitures en stock' }} list={NewcarsList} edit={NewcarsEdit} create= {NewcarsCreate} icon={StockIcon} />       
      <Resource name="tarifs"  options={{ label: 'fichier tarifs' }} list={filetarifs} icon={FileIcon} /> 
      <Resource  name ="tarifs-versions" options={{ label: 'tarifs des versions ' }} list={TarifsList} edit={TarifsEdit} icon={tarifIcon} /> 
      <Resource  name ="tarifs-options" options={{ label: 'tarifs des options ' }} list={TarifsList} edit={TarifsEdit} icon={tarifIcon}  /> 

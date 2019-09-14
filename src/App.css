@@ -8,7 +8,11 @@
   pointer-events: none;
 }
 
-
+.thumbNailView img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%
+}
 .Dropzone {
   height: 200px;
   width: 200px;

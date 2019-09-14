@@ -4,7 +4,14 @@ import { List, Responsive, SimpleList, Datagrid, TextField, EditButton } from 'r
 import { Edit, SimpleForm, TextInput } from 'react-admin';
 import { Create } from 'react-admin';
 import { DeleteButton } from 'react-admin';
+import { ImageField , ImageInput} from 'react-admin';
 
+import {withStyles} from '@material-ui/core/styles'
+
+const styles = {
+    image: { maxWidth:'8rem' }
+  }
+  
 
 const ModelTitle = () => {
     return <span>Modèles</span>;
@@ -17,7 +24,7 @@ const ModelFilter = (props) => (
     </Filter>
 );
 
-export const ModelList = props => (
+export const ModelList = withStyles(styles)(({ classes, permissions, ...props }) => (
     <List title={<ModelTitle />} {...props} filters={<ModelFilter />}>
         <Responsive
             small={
@@ -31,6 +38,8 @@ export const ModelList = props => (
                 
                     <TextField label="Code" source="id"/>
                     <TextField label="Nom" source="name"/>
+                  
+<ImageField source="image" classes={classes} />
                    
                    
                     <EditButton/>
@@ -39,13 +48,16 @@ export const ModelList = props => (
             }
         />
     </List>
-);
+));
 
 export const ModelEdit = props => (
     <Edit {...props}>
         <SimpleForm>
             <TextField label ="Code" source="id" />
             <TextInput label="Nom" source="name" />
+             <ImageInput source="images" multiple={false} accept="image/*">
+    <ImageField source="image"  />
+</ImageInput>
             <TextField label="Utilisateur fabricant" source="manufacturer" />
         </SimpleForm>
     </Edit>
@@ -56,6 +68,9 @@ export const ModelCreate = props => (
         <SimpleForm>
             <TextInput label =" Code" source="id" />
             <TextInput label="Nom" source="name" />
+            <ImageInput source="images" multiple={false} accept="image/*">
+    <ImageField source="image"  />
+</ImageInput>
             <TextInput  label="Utilisateur fabricant" source="manufacturer" />
         </SimpleForm>
     </Create>
