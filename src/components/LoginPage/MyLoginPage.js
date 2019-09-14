@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { userLogin } from 'react-admin';
 import { TextInput } from 'react-admin';
 import { MuiThemeProvider } from '@material-ui/core/styles';
+import { Field, reduxForm } from 'redux-form';
 
 class MyLoginPage extends Component {
     submit = (e) => {
@@ -17,10 +18,12 @@ class MyLoginPage extends Component {
     render() {
         return (
             <MuiThemeProvider theme={this.props.theme}>
+                test
                 <form onSubmit={this.submit}>
                     <TextInput source="username" />
                     <TextInput source="password" />
                 </form>
+               
             </MuiThemeProvider>
         );
     }

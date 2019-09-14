@@ -49,8 +49,8 @@ export const VersionEdit = props => (
             <TextInput source="code" />
             <TextInput source="name" />
             <ReferenceArrayInput source="options" reference="Option">
-    <SelectArrayInput optionText="option" />
-</ReferenceArrayInput>
+                <SelectArrayInput optionText="option" />
+            </ReferenceArrayInput>
         </SimpleForm>
     </Edit>
 );
