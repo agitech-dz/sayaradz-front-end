@@ -31,7 +31,7 @@ const PostCreateToolbar = props => (
         <SaveButton
             label="VERIFIER LA DISPONIBILITE"
             redirect="show"
-            submitOnEnter={true}s
+            submitOnEnter={true}
         />
         <SaveButton
             label="AFFICHER LE PRIX"
